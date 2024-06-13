@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import LanguageSelector from '../LanguageSelector/index.jsx'
 
 import BNH from '../../assets/BNH.png'
 import Samitivevej from '../../assets/Samitivevej.png'
@@ -65,16 +66,19 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    
+
                 </div>
             </div>
             <div className='last'>
-                    <div className='last-container'>
-                        <div className='last-txt'>
-                            สงวนลิขสิทธิ์ 0000-2024 โดย บริษัท xxxxxxx (ประเทศไทย) จำกัด
-                        </div>
+                <div className='last-container'>
+                    <div className='last-txt'>
+                        สงวนลิขสิทธิ์ 0000-2024 โดย บริษัท xxxxxxx (ประเทศไทย) จำกัด
+                    </div>
+                    <div className='last-language'>
+                        <LanguageSelector/> 
                     </div>
                 </div>
+            </div>
         </>
 
     )
