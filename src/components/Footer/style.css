@@ -3,14 +3,12 @@
     justify-content: center;
     align-items: center;
     background-color: var(--head-background-color);
-
-    position: static;
     width: 100%;
     min-height: 203px;
+
 }
 
 .footer .footer-container {
-    position: static;
     width: var(--container-content-width);
     min-height: 203px;
     color: #fff;
@@ -27,14 +25,11 @@
     align-items: center;
     background-color: var(--gold-bg-color);
 
-    position: static;
     width: 100%;
     min-height: 40px;
 }
 
 .last .last-container {
-
-    position: static;
     width: var(--container-content-width);
     min-height: 40px;
     color: #fff;
@@ -44,10 +39,11 @@
     display: flex;
 }
 
-.last .last-txt{
+.last .last-txt {
     flex: 100%;
 }
-.last .last-language{
+
+.last .last-language {
     flex: 10%;
 }
 
@@ -58,12 +54,14 @@
 
 .footer .contact-txt {
     margin: 10px 0px 10px 0px;
-    font-weight: 550;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 
 .footer .phone-number {
-    font-weight: 550;
+    font-weight: 700;
+    font-size: 24px;
     margin: 0px 0px 0px 10px;
 }
 
