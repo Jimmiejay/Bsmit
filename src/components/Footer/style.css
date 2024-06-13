@@ -1,93 +1,133 @@
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--head-background-color);
+ .footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--head-background-color);
 
-    position: fixed;
-    bottom: 40px;
-    width: 100%;
-    min-height: 203px;
+     position: fixed;
+     bottom: 40px;
+     width: 100%;
+     min-height: 203px;
+ }
+
+ .footer .footer-container {
+
+     position: fixed;
+     bottom: 40px;
+     width: var(--container-content-width);
+     min-height: 203px;
+     color: #fff;
+     justify-content: center;
+     align-items: center;
+
+     display: grid;
+     grid-template-columns: 450px 1fr;
+ }
+
+ .footer .last {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--gold-bg-color);
+     position: fixed;
+     bottom: 0px;
+     width: 100%;
+     min-height: 40px;
+ }
+
+ .footer .last-container {
+     position: flex;
+     bottom: 0px;
+     width: var(--container-content-width);
+     min-height: 40px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     color: #fff;
+ }
+
+ .footer .last-txt {
+     flex: 100%;
+ }
+
+ .footer .contact-side {
+     /*background-color: crimson;*/
+     margin-top: 0px;
+ }
+
+ .footer .contact-txt {
+     margin: 10px 0px 10px 0px;
+     font-weight: 550;
+ }
+
+
+ .footer .phone-number {
+     font-weight: 550;
+     margin: 0px 0px 0px 10px;
+ }
+
+ .footer .data-side {
+     /* background-color: darkorange; */
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px 0px;
+     font-size: 14px;
+ }
+
+ .footer .logo {
+     margin: 0px 3px 0px 0px;
+ }
+
+ .footer .phone {
+     display: flex;
+     margin: 0px 0px 20px 0px;
+ }
+
+ .footer .contact-icon {
+     display: flex;
+ }
+
+ .footer .icon {
+     padding: 0px 0px 0px 15px;
+ }
+
+ @media only screen and (max-width:1200px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-background-color);
+   
+        position: fixed;
+        bottom: 40px;
+        width: 100%;
+        min-height: 203px;
+    }
+   
+    .footer .footer-container {
+   
+        position: fixed;
+        bottom: 40px;
+        width: 100%;
+        min-height: 203px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+   
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+    .footer .data-side {
+        /* background-color: darkorange; */
+        display: grid;
+        grid-template-columns: 200px 150px 1fr;
+        gap: 20px 0px;
+        font-size: 14px;
+    }
+ }
+ @media only screen and (max-width:915px) {
+    
 }
-
-.footer .footer-container {
-
-    position: fixed;
-    bottom: 40px;
-    width: var(--container-content-width);
-    min-height: 203px;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-
-    display: grid;
-    grid-template-columns: 450px 1fr;
-}
-
-.footer .last {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--gold-bg-color);
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    min-height: 40px;
-}
-
-.footer .last-container {
-    position: fixed;
-    bottom: 0px;
-    width: var(--container-content-width);
-    min-height: 40px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: #fff;
-}
-
-.footer .last-txt {
-    flex: 100%;
-}
-
-.footer .contact-side {
-    /*background-color: crimson;*/
-    margin-top: 0px;
-}
-
-.footer .contact-txt {
-    margin: 10px 0px 10px 0px;
-    font-weight: 550;
-}
-
-
-.footer .phone-number {
-    font-weight: 550;
-    margin: 0px 0px 0px 10px;
-}
-
-.footer .data-side {
-    flex: 100%;
-    /* background-color: darkorange; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 0px;
-    font-size: 14px;
-}
-
-.footer .logo {
-    margin: 0px 3px 0px 0px;
-}
-
-.footer .phone {
-    display: flex;
-    margin: 0px 0px 20px 0px;
-}
-
-.footer .contact-icon {
-    display: flex;
-}
-
-.footer .icon {
-    padding: 0px 0px 0px 15px;
+@media only screen and (max-width:810px) {
+ 
 }

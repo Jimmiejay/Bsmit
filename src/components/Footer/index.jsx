@@ -70,9 +70,6 @@ const Footer = () => {
                         <div className='last-txt'>
                             สงวนลิขสิทธิ์ 0000-2024 โดย บริษัท xxxxxxx (ประเทศไทย) จำกัด
                         </div>
-                        <div className='last-txt'>
-
-                        </div>
                     </div>
                 </div>
             </div>
