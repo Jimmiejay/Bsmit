@@ -7,7 +7,7 @@
 
 .registerform h1 {
     font-size: 33px;
-    font-weight: 400px ;
+    font-weight: 400px;
     font-family: 'Kittithada Bold 75';
     color: #333;
     text-align: center;
@@ -21,6 +21,7 @@
     color: #959594;
     ;
 }
+
 .registerform h3 {
     font-size: 9px;
     font-weight: 400px;
@@ -46,14 +47,14 @@
 .registerform .nouser-text h2 {
     display: inline-block;
     /* margin-right: 10px; */
-  }
-  
+}
+
 .registerform .nouser-text h4 {
     display: inline-block;
     text-decoration: underline;
-    text-decoration-color:#00605C;
+    text-decoration-color: #00605C;
     text-decoration-thickness: 2px;
-  }
+}
 
 .registerform div {
     margin-bottom: 1rem;
@@ -88,23 +89,45 @@
     text-align: left;
 
 }
+
+.registerform .password-input {
+    position: relative;
+}
+
+.registerform .toggle-icon {
+    position: absolute;
+    margin-left:280px;
+    top: 50.7%;
+    transform: translateY(-50%);
+    cursor: pointer; 
+}
+
+.registerform .toggle-icon2 {
+    position: absolute;
+    margin-left:280px;
+    top: 61.8%;
+    transform: translateY(-50%);
+    cursor: pointer; 
+}
+
 .registerform .terms-text {
     max-width: 80%;
-  }
+}
 
 .registerform .terms-container {
     display: flex;
     align-items: flex-start;
     margin-bottom: 1rem;
-  }
+}
 
 .registerform .checkbox-container {
     display: flex;
     align-items: top;
 }
-.registerform .checkbox-container label  {
+
+.registerform .checkbox-container label {
     margin-left: 0.5rem;
-  }
+}
 
 .registerform .checkbox-container input[type="checkbox"] {
     appearance: none;
@@ -132,6 +155,8 @@
     height: 100%;
 }
 
+
+
 .registerform button {
     padding: 10px 20px;
     font-size: 14px;
@@ -149,8 +174,8 @@
     height: 38px;
     top: 611px;
     left: 803px;
-    margin-top: 10px; 
-     margin-left: 45px;
+    margin-top: 10px;
+    margin-left: 45px;
 }
 
 .registerform button:hover {
