@@ -1,5 +1,5 @@
 import React from 'react';
-import Registerform from '../../pages/Register/form/registerform';
+import Registerform from '../form/registerform';
 import './style.css';
 
 function Register() {

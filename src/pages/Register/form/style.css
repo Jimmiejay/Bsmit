@@ -63,6 +63,38 @@
 
 }
 
+.registerform .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.registerform .checkbox-container input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.registerform .checkbox-container input[type="checkbox"]:checked {
+    background-color: var(--head-background-color);
+    border-color: var(--head-background-color);
+}
+
+.registerform .checkbox-container input[type="checkbox"]:checked::before {
+    content: "\2713";
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .registerform button {
     padding: 10px 20px;
     font-size: 14px;
