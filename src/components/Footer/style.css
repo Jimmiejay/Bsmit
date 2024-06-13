@@ -3,15 +3,14 @@
     justify-content: center;
     align-items: center;
     background-color: var(--head-background-color);
-
-    /* position: static; */
     width: 100%;
     min-height: 203px;
+    text-align: left;
+    font-family: 'Sukhumvit Set Medium';
 
 }
 
 .footer .footer-container {
-    /* position: static; */
     max-width: var(--container-content-width);
     width: var(--container-content-width);
     min-height: 203px;
@@ -28,18 +27,19 @@
     justify-content: center;
     align-items: center;
     background-color: var(--gold-bg-color);
-
-    /* position: static; */
     width: 100%;
-    min-height: 40px;
+    min-height: 47px;
+    text-align: left;
+
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Sukhumvit Set text';
 }
 
 .last .last-container {
-
-    /* position: static; */
     max-width: var(--container-content-width);
     width: var(--container-content-width);
-    min-height: 40px;
+    min-height: 47px;
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px 0px;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .footer .logo {
@@ -92,6 +93,8 @@
 
 .footer .contact-icon {
     display: flex;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .footer .icon {
@@ -111,7 +114,7 @@
          min-height: 50vh;
      }
 
-     .footer .footer-container {
+     .footer .footer-container {S
 
          position: fixed;
          bottom: 40px;
