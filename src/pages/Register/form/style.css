@@ -116,7 +116,7 @@
 }
 
 .registerform button:hover {
-    background-color: white;
+    background-color: rgb(97, 242, 141);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: black;
 }
@@ -124,6 +124,7 @@
 .registerform button:active {
     background-color: #004085;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
 }
 
 /* .registerform button:focus {
