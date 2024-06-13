@@ -29,6 +29,32 @@
     ;
 }
 
+.registerform h4 {
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #00605C;
+    ;
+}
+
+.registerform .nouser-text {
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.registerform .nouser-text h2 {
+    display: inline-block;
+    /* margin-right: 10px; */
+  }
+  
+.registerform .nouser-text h4 {
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color:#00605C;
+    text-decoration-thickness: 2px;
+  }
+
 .registerform div {
     margin-bottom: 1rem;
 }
@@ -62,12 +88,23 @@
     text-align: left;
 
 }
+.registerform .terms-text {
+    max-width: 80%;
+  }
+
+.registerform .terms-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
 
 .registerform .checkbox-container {
     display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+    align-items: top;
 }
+.registerform .checkbox-container label  {
+    margin-left: 0.5rem;
+  }
 
 .registerform .checkbox-container input[type="checkbox"] {
     appearance: none;
@@ -112,7 +149,8 @@
     height: 38px;
     top: 611px;
     left: 803px;
-    margin: 50px;
+    margin-top: 10px; 
+     margin-left: 45px;
 }
 
 .registerform button:hover {
