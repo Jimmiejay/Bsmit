@@ -64,16 +64,17 @@ const Footer = () => {
                             งานที่บันทึก
                         </div>
                     </div>
+
+                    
                 </div>
-                <div className='last'>
+            </div>
+            <div className='last'>
                     <div className='last-container'>
                         <div className='last-txt'>
                             สงวนลิขสิทธิ์ 0000-2024 โดย บริษัท xxxxxxx (ประเทศไทย) จำกัด
                         </div>
                     </div>
                 </div>
-            </div>
-
         </>
 
     )
