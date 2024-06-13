@@ -23,7 +23,9 @@ const Footer = () => {
                         </div>
                         <div className='phone'>
                             <img src={call} />
-                            <h2 className='phone-number'>+66 (0) 2022-2222</h2>
+                            <div className='phone-number'>
+                                +66 (0) 2022-2222
+                            </div>
                         </div>
                         <div className='contact-icon'>
                             ติดตามเรา:
@@ -75,7 +77,7 @@ const Footer = () => {
                         สงวนลิขสิทธิ์ 0000-2024 โดย บริษัท xxxxxxx (ประเทศไทย) จำกัด
                     </div>
                     <div className='last-language'>
-                        <LanguageSelector/> 
+                        <LanguageSelector />
                     </div>
                 </div>
             </div>
