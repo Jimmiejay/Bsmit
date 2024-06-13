@@ -14,8 +14,6 @@
 
 main
 {
-    /* flex-grow: 1; */
-    padding: 90px;
     text-align: left;
     background-color: lightblue;
     width: var(--container-content-width);

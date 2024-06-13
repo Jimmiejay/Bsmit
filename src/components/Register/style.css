@@ -1,11 +1,9 @@
 .registerpage {
     background-color: rgb(184, 230, 173);
-    position: left;
-    /* padding: 90px; */
+    position: fixed;
+    top: 68px;
     text-align: left;
-    /* width: var(--background-size-width); */
-    /* width: var(--background-size-width); */
-    min-height: 100vh;
+    min-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +14,7 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 450px 450px;
-    grid-template-rows: 500px;
+    height: 500px;
     justify-content: center;
     /* gap: 20px; */
 }

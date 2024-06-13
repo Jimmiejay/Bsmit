@@ -14,25 +14,10 @@
 
 main
 {
-    padding: 90px;
-    padding: 20px;
+    
     text-align: left;
     background-color: lightblue;
     width: var(--container-content-width);
     min-height: 100vh;
     color: black;
 }
-
-/* main .left {
-    width: calc(50% - 45px); 
-    padding: 0 45px; 
-    text-align: center; 
-    background-color: lightgray; 
-}
-
-main .right {
-    width: calc(50% - 45px); 
-    padding: 45 0px; 
-    text-align: center; 
-    background-color: lightpink; 
-} */
