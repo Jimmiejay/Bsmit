@@ -15,6 +15,7 @@
 
 .header .content-wrap
 {
+    /* max-width: var(--container-content-width);  */
     width: var(--container-content-width);
     /* border: 1px solid red; */
 
@@ -24,7 +25,5 @@
 }
 
 .header .img {
-    /* width: 225px;
-    height: 38.72px; */
     margin-right: 10px;
 }

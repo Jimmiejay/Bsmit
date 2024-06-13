@@ -1,13 +1,14 @@
 .register-container
 {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
     background-color: whitesmoke;
+    /* position: static; */
 
-    width: 100vw;
-    min-height: 100vh;
+    /* min-width: 100vw; */
+    /* min-height: 100vh; */
 
     color: var(--text-head-color);
 }
@@ -17,7 +18,7 @@ main
     
     text-align: left;
     background-color: lightblue;
-    width: var(--container-content-width);
-    min-height: 100vh;
+    /* max-width: var(--container-content-width); */
+    /* min-height: 100vh; */
     color: black;
 }

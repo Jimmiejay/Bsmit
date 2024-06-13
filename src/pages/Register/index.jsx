@@ -6,15 +6,11 @@ import './style.css'
 
 function RegisterPage() {
   return (
-    <>
       <div className='register-container'>
         <Header />
-        <main>
           <Register />
-        </main>
+        <Footer />
       </div>
-      <Footer />
-    </>
   )
 }
 

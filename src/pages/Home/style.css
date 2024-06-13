@@ -16,7 +16,7 @@ main
 {
     text-align: left;
     background-color: lightblue;
-    width: var(--container-content-width);
+    max-width: var(--container-content-width);
     min-height: 100vh;
     color: black;
 }

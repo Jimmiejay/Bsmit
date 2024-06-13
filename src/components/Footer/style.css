@@ -4,14 +4,14 @@
     align-items: center;
     background-color: var(--head-background-color);
 
-    position: static;
+    /* position: static; */
     width: 100%;
     min-height: 203px;
 }
 
 .footer .footer-container {
-    position: static;
-    width: var(--container-content-width);
+    /* position: static; */
+    max-width: var(--container-content-width);
     min-height: 203px;
     color: #fff;
     justify-content: center;
@@ -27,15 +27,15 @@
     align-items: center;
     background-color: var(--gold-bg-color);
 
-    position: static;
+    /* position: static; */
     width: 100%;
     min-height: 40px;
 }
 
 .last .last-container {
 
-    position: static;
-    width: var(--container-content-width);
+    /* position: static; */
+    max-width: var(--container-content-width);
     min-height: 40px;
     color: #fff;
     justify-content: center;

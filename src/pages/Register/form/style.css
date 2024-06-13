@@ -1,32 +1,35 @@
-@font-face {
-    font-family: 'Sukhumvit Set Medium';
-    src: url('../../assets/SukhumvitSet/SukhumvitSet-Medium.ttf') format('truetype');
-
-    font-family: 'Sukhumvit Set Bold';
-    src: url('../../assets/SukhumvitSet/SukhumvitSet-Bold.ttf') format('truetype');
-
-    font-family: 'Sukhumvit Set Light';
-    src: url('../../assets/SukhumvitSet/SukhumvitSet-Light.ttf') format('truetype');
-
-    font-family: 'Sukhumvit Set SemiBold';
-    src: url('../../assets/SukhumvitSet/SukhumvitSet-SemiBold.ttf') format('truetype');
-
-    font-family: 'Sukhumvit Set Thin';
-    src: url('../../assets/SukhumvitSet/SukhumvitSet-Thin.ttf') format('truetype');
-
-    font-family: 'Sukhumvit Set Text';
-    src: url('../../assets/SukhumvitSet/SukhumvitSet-Text.ttf') format('truetype');
-}
-
 .registerform {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
-    font-family: 'Sukhumvit Set Text';
 }
 
-.registerform .div {
+.registerform h1 {
+    font-size: 33px;
+    font-weight: 400px ;
+    font-family: 'Kittithada Bold 75';
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.registerform h2 {
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #959594;
+    ;
+}
+.registerform h3 {
+    font-size: 9px;
+    font-weight: 400px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #959594;
+    ;
+}
+
+.registerform div {
     margin-bottom: 1rem;
 }
 
@@ -35,6 +38,11 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: #959594;
+    top: 259px;
+    left: 765px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
 }
 
 .registerform .input {
@@ -42,12 +50,56 @@
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: 314px;
+    height: 38px;
 }
 
-.registerform h3 {
+.registerform .input::placeholder {
+    color: #D8D9D9;
+    font-family: 'Sukhumvit Set Light';
     font-size: 14px;
-    font-family: 'Sukhumvit Set Thin';
-    color: #959594;
-    ;
+    font-weight: 500;
+    text-align: left;
 
 }
+
+.registerform button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600px;
+    font-family: 'Sukhumvit Set Medium';
+    color: white;
+
+    background-color: var(--head-background-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+    width: 238px;
+    height: 38px;
+    top: 611px;
+    left: 803px;
+    margin: 50px;
+}
+
+.registerform button:hover {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.registerform button:active {
+    background-color: #004085;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* .registerform button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.registerform button.disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+} */
