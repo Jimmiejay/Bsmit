@@ -1,6 +1,16 @@
+@font-face {
+    font-family: "Kittithada Bold 75";
+    src: url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.eot");
+    src: url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.svg#Kittithada Bold 75")format("svg");
+}
+
 .registerpage {
     background-color: rgb(184, 230, 173);
-    position: fixed;
+    position: static;
     top: 68px;
     text-align: left;
     min-height: 1000px;
@@ -20,12 +30,21 @@
 }
 
 .registerpage .left-column {
-    background-color: #ff0000;
+    background-color: #f4c8c8;
     padding: 20px;
 }
 
 .registerpage .right-column {
-    background-color: #1700e7;
+    background-color: #c3beed;
     padding: 20px;
     border-left: 1px solid #ddd;
+}
+
+.registerpage h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Kittithada Bold 75';
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
 }

@@ -1,13 +1,38 @@
+@font-face {
+    font-family: 'Sukhumvit Set Medium';
+    src: url('../../assets/SukhumvitSet/SukhumvitSet-Medium.ttf') format('truetype');
+
+    font-family: 'Sukhumvit Set Bold';
+    src: url('../../assets/SukhumvitSet/SukhumvitSet-Bold.ttf') format('truetype');
+
+    font-family: 'Sukhumvit Set Light';
+    src: url('../../assets/SukhumvitSet/SukhumvitSet-Light.ttf') format('truetype');
+
+    font-family: 'Sukhumvit Set SemiBold';
+    src: url('../../assets/SukhumvitSet/SukhumvitSet-SemiBold.ttf') format('truetype');
+
+    font-family: 'Sukhumvit Set Thin';
+    src: url('../../assets/SukhumvitSet/SukhumvitSet-Thin.ttf') format('truetype');
+
+    font-family: 'Sukhumvit Set Text';
+    src: url('../../assets/SukhumvitSet/SukhumvitSet-Text.ttf') format('truetype');
+}
+
 .register-btn {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: 'Sukhumvit Set Medium';
     color: white;
+
     background-color: var(--head-background-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
+
+    margin-left: 150px ;
+    margin-top: 300px ;
 }
 
 .register-btn:hover {
