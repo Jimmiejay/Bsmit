@@ -3,6 +3,7 @@
     --grid-post-column: 1fr 1fr;
     --head-background-color: #00605C;
     --container-content-width: 1200px;
+    --background-size-width: 1180px;
 }
 
 * {

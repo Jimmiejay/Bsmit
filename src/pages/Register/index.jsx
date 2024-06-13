@@ -1,20 +1,17 @@
 import React from 'react'
 import Header from '../../components/Header'
-// import Main from '../../components/Main'
-import RegisterButton from '../../components/RegisterButton'
+import Register from '../../components/Register'
 import './style.css'
 
-function Register() {
+function RegisterPage() {
   return (
-    <div className='register-container'>
-      <Header />
-      <main>
-        Register Page
-        <RegisterButton/>
-        {/* <Main /> */}
-      </main>
-    </div>
+      <div className='register-container'>
+        <Header />
+        <main>
+          <Register />
+        </main>
+      </div>
   )
 }
 
-export default Register
+export default RegisterPage

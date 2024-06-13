@@ -1,0 +1,33 @@
+.registerpage {
+    background-color: rgb(184, 230, 173);
+    position: left;
+    /* padding: 90px; */
+    text-align: left;
+    /* width: var(--background-size-width); */
+    /* width: var(--background-size-width); */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerpage .register-content {
+    width: var(--container-content-width); 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 500px;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.registerpage .left-column {
+    background-color: #ff0000;
+    padding: 20px;
+}
+
+.registerpage .right-column {
+    background-color: #1700e7;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
