@@ -1,0 +1,192 @@
+.requestform {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.requestform .otp-ref {
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #959594;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 1.05rem;
+}
+
+.requestform h2 {
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #585958;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.requestform h3 {
+    font-size: 12px;
+    font-weight: 500px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #959594;
+}
+
+.requestform h4 {
+    font-size: 12px;
+    font-weight: 500px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #00605C;
+}
+
+.requestform h5 {
+    font-size: 10px;
+    font-weight: 500px;
+    font-family: 'Sukhumvit Set Thin';
+    color: #00605C;
+    margin-left: 3px;
+}
+
+.requestform .otp-expiry {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Sukhumvit Set Thin';
+    color: #959594;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+   }
+
+   .requestform .email-otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #EFEFEF; 
+    padding: 0.5rem; 
+    border-radius: 4px;
+  }
+  
+  .requestform .email-text {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Sukhumvit Set Thin';
+    color: #585958;
+    margin-right:6rem;
+  }
+  
+  .requestform .request-otp-link {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Sukhumvit Set Thin';
+    color: #00605c;
+    /* text-decoration: underline; */
+    text-decoration-color: #00605c;
+    text-decoration-thickness: 2px;
+  }
+
+.requestform .nouser-text {
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.requestform .nouser-text2 {
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 16px;
+    margin-bottom: -10px;
+}
+
+.requestform .nouser-text.otp-expiry {
+    display: inline-block;
+}
+
+.requestform .nouser-text h5 {
+    display: inline-block;
+    text-decoration-color: #00605C;
+}
+
+.requestform div {
+    margin-bottom: 1rem;
+}
+
+.requestform .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: -10px;
+    color: #959594;
+    top: 259px;
+    left: 765px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+}
+
+.requestform .input-group {
+    position: relative;
+  }
+
+.requestform .otp-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 314px;
+    height: 38px;
+}
+
+.requestform .otp-input::placeholder {
+    color: #D8D9D9;
+    font-family: 'Sukhumvit Set Light';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.requestform button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600px;
+    font-family: 'Sukhumvit Set Medium';
+    color: white;
+
+    background-color: var(--head-background-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+    width: 238px;
+    height: 38px;
+    top: 611px;
+    left: 803px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.requestform button[type="submit"]:hover {
+    background-color: rgb(97, 242, 141);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.requestform button[type="submit"]:active {
+    background-color: #004085;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* .requestform button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.requestform button[type="submit"].disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+} */

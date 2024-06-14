@@ -95,10 +95,6 @@
 
 }
 
-/* .registerform .password-input {
-    position: relative;
-} */
-
 .registerform .toggle-icon {
     position: absolute;
     margin-left:280px;
@@ -162,7 +158,7 @@
 
 
 
-.registerform button {
+.registerform button[type="submit"] {
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 600px;
@@ -183,24 +179,24 @@
     margin-left: 45px;
 }
 
-.registerform button:hover {
+.registerform button[type="submit"]:hover {
     background-color: rgb(97, 242, 141);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: black;
 }
 
-.registerform button:active {
+.registerform button[type="submit"]:active {
     background-color: #004085;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: white;
 }
 
-/* .registerform button:focus {
+/* .registerform button[type="submit"]:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
 }
 
-.registerform button.disabled {
+.registerform button[type="submit"].disabled {
     background-color: #6c757d;
     cursor: not-allowed;
 } */

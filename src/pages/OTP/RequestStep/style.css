@@ -1,0 +1,19 @@
+.requeststep {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+}
+
+.requeststep .otpimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* .requeststep .img-contain {
+    text-align: center; 
+    margin: 100px 0 0 0;
+} */
