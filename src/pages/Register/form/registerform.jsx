@@ -35,8 +35,8 @@ const registerform = () => {
         </div>
       </div>
       <div>
+        <label className='label'><h2>ยืนยันรหัสผ่าน</h2></label>
         <div className='input-group'>
-          <label className='label'><h2>ยืนยันรหัสผ่าน</h2></label>
           <input className='input' type={showConfirmPassword ? 'text' : 'password'} id="confirmPassword" name="confirmPassword" required
             placeholder="กรอกรหัสผ่าน" />
           <span className="toggle-icon2" onClick={toggleConfirmPasswordVisibility}>

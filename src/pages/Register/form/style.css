@@ -3,6 +3,7 @@
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .registerform h1 {
@@ -94,9 +95,9 @@
 
 }
 
-.registerform .password-input {
+/* .registerform .password-input {
     position: relative;
-}
+} */
 
 .registerform .toggle-icon {
     position: absolute;
@@ -110,7 +111,7 @@
     position: absolute;
     margin-left:280px;
     top: 61.9%;
-    transform: translateY(-10%);
+    transform: translateY(-50%);
     cursor: pointer; 
 }
 
