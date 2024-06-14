@@ -19,7 +19,7 @@ const RegDone = () => {
                     </div>
                 </div>
                 <div className='buttonBox'>
-                    <button className='button' type='button'>กลับไปยังหน้าหลัก</button>
+                    <button className='Regbutton' type='button'>กลับไปยังหน้าหลัก</button>
                 </div>
             </div>
         </div>

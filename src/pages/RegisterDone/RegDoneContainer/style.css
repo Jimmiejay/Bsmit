@@ -43,7 +43,7 @@
     background-color: #ffffff;
 }
 
-.regDonePage  .button {
+.regDonePage  .Regbutton {
     width: 186px;
     height: 38px;
     font-size: 14px;
@@ -54,7 +54,7 @@
     background-color: #585958;
 }
 
-.regDonePage  .button:hover{
+.regDonePage  .Regbutton:hover{
     background-color: #E6E6E6;
     color: #585958;
     border: 1px solid #E6E6E6;

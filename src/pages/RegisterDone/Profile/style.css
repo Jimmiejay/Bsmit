@@ -42,7 +42,7 @@
 .profile .txt{
     padding: 10px 0 10px 0;
 }
-.profile .button {
+.profile .Probutton {
     width: 121px;
     height: 38px;
     font-size: 14px;
@@ -53,6 +53,6 @@
     background-color: white;
 }
 
-.profile .button:hover{
+.profile .Probutton:hover{
     background-color: #E6E6E6;
 }

@@ -17,7 +17,7 @@ const Profile = () => {
           <p>เพื่อให้โปรไฟล์ของคุณความสมบูรณ์มากขึ้น</p>
         </div>
         <div>
-          <button className='button' type='button'>จัดการโปรไฟล์</button>
+          <button className='Probutton' type='button'>จัดการโปรไฟล์</button>
         </div>
       </div>
     </>
