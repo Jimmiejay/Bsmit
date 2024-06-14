@@ -1,6 +1,6 @@
 .registerpage {
-    background-color: rgb(184, 230, 173);
-    /* background-color: white; */
+    /* background-color: rgb(184, 230, 173); */
+    background-color: white;
     /* position: static; */
     /* top: 68px; */
     text-align: left;
@@ -28,12 +28,12 @@
 }
 
 .registerpage .left-column {
-    background-color: #f4c8c8;
+    /* background-color: #f4c8c8; */
     padding: 20px;
 }
 
 .registerpage .right-column {
     background-color: #ffffff;
     padding: 20px;
-    border-left: 1px solid #ddd;
+    /* border-left: 1px solid #ddd; */
 }

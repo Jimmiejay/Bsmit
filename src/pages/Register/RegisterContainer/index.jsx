@@ -1,5 +1,6 @@
 import React from 'react';
 import Registerform from '../form/registerform';
+import RegStep from '../RegisterStep';
 import './style.css';
 
 function Register() {
@@ -8,8 +9,7 @@ function Register() {
             <div className="card-group">
                 <div className='register-content'>
                     <div className='left-column'>
-                        <h1>Left Column</h1>
-                        <p>Some content for the left column.</p>
+                        <RegStep />
                     </div>
                     <div className='right-column'>
                         <Registerform />
