@@ -19,7 +19,7 @@ const RegDone = () => {
                     </div>
                 </div>
                 <div className='buttonBox'>
-                    <button className='button' type='button'>จัดการโปรไฟล์</button>
+                    <button className='button' type='button'>กลับไปยังหน้าหลัก</button>
                 </div>
             </div>
         </div>
