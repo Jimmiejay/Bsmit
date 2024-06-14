@@ -82,7 +82,7 @@
     font-weight: 500;
     font-family: 'Sukhumvit Set Thin';
     color: #00605c;
-    /* text-decoration: underline; */
+    text-decoration: none;
     text-decoration-color: #00605c;
     text-decoration-thickness: 2px;
   }
