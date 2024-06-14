@@ -72,6 +72,10 @@
     border: 1px 0px 0px 0px;
 }
 
+.registerform .input-group {
+    position: relative;
+  }
+
 .registerform .input {
     padding: 0.5rem;
     font-size: 1rem;
@@ -98,15 +102,15 @@
     position: absolute;
     margin-left:280px;
     top: 50.7%;
-    transform: translateY(-50%);
+    transform: translateY(-35%);
     cursor: pointer; 
 }
 
 .registerform .toggle-icon2 {
     position: absolute;
     margin-left:280px;
-    top: 61.8%;
-    transform: translateY(-50%);
+    top: 61.9%;
+    transform: translateY(-10%);
     cursor: pointer; 
 }
 
