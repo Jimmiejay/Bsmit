@@ -1,0 +1,12 @@
+.regDone-container {
+    text-align: center;
+    background-color: whitesmoke;
+    color: var(--text-head-color);
+}
+
+main {
+
+    text-align: left;
+    background-color: lightblue;
+    color: black;
+}

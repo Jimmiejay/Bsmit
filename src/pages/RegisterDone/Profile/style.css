@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Kittithada Bold 75";
+    src: url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.eot");
+    src: url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/db90f804a271625c29dc5fdc8ab47058.svg#Kittithada Bold 75")format("svg");
+    font-weight: 400;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .top {
+    flex: 100%;
+    padding: 10px 0 25px 0;
+}
+
+.profile h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #585958;
+    font-family: "Kittithada Bold 75";
+}
+
+.profile h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #585958;
+}
+
+.profile p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #585958;
+}
+
+.profile .txt{
+    padding: 10px 0 10px 0;
+}
+.profile .button {
+    width: 121px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    color: #959594;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+}
+
+.profile .button:hover{
+    background-color: #E6E6E6;
+}
