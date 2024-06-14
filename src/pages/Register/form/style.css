@@ -158,7 +158,7 @@
 
 
 
-.registerform button[type="submit"] {
+.registerform .buttonReg{
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 600px;
@@ -179,13 +179,13 @@
     margin-left: 45px;
 }
 
-.registerform button[type="submit"]:hover {
+.registerform .buttonReg:hover {
     background-color: rgb(97, 242, 141);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: black;
 }
 
-.registerform button[type="submit"]:active {
+.registerform .buttonReg:active{
     background-color: #004085;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: white;

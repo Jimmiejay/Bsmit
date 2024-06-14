@@ -61,7 +61,7 @@ const registerform = () => {
         </div>
       </div>
       <div>
-        <button className='button' type="sumit">ลงทะเบียน</button>
+        <button className='buttonReg' type="sumit">ลงทะเบียน</button>
       </div>
       <div className='nouser-text'>
         <h2 style={{ display: 'inline-block' }}>คุณมีบัญชีผู้ใช้อยู่แล้วหรือไม่?</h2>
