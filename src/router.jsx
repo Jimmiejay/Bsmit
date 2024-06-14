@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+
 import Home from './pages/Home/index.jsx'
 import Register from './pages/Register/index.jsx'
+import RegDonePage from './pages/RegisterDone/index.jsx'
+
 import './main.css'
 
 const router = createBrowserRouter([
@@ -34,12 +37,12 @@ const router = createBrowserRouter([
   //   ),
   // },
 
-  // {
-  //   path: "/RegisterSucceed",
-  //   element: (
-  //     <RegisterSucceed/>
-  //   ),
-  // },
+  {
+    path: "/RegisterSucceed",
+    element: (
+      <RegDonePage/>
+    ),
+  },
 
 ]);
 
