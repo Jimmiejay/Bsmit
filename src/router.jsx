@@ -19,7 +19,31 @@ const router = createBrowserRouter([
       <Register/>
     ),
   },
+
+  // {
+  //   path: "/OTP",
+  //   element: (
+  //     <OTP/>
+  //   ),
+  // },
+
+  // {
+  //   path: "/PersonalInfo",
+  //   element: (
+  //     <PersonalInfo/>
+  //   ),
+  // },
+
+  // {
+  //   path: "/RegisterSucceed",
+  //   element: (
+  //     <RegisterSucceed/>
+  //   ),
+  // },
+
 ]);
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
