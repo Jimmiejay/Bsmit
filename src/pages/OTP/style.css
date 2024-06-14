@@ -1,0 +1,24 @@
+.reguestotp-container
+{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    background-color: whitesmoke;
+    /* position: static; */
+
+    /* min-width: 100vw; */
+    /* min-height: 100vh; */
+
+    color: var(--text-head-color);
+}
+
+main
+{
+    
+    text-align: left;
+    background-color: lightblue;
+    /* max-width: var(--container-content-width); */
+    /* min-height: 100vh; */
+    color: black;
+}

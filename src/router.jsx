@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home/index.jsx'
 import Register from './pages/Register/index.jsx'
+import OTP from './pages/OTP/index.jsx'
 import './main.css'
 
 const router = createBrowserRouter([
@@ -20,12 +21,12 @@ const router = createBrowserRouter([
     ),
   },
 
-  // {
-  //   path: "/OTP",
-  //   element: (
-  //     <OTP/>
-  //   ),
-  // },
+  {
+    path: "/OTP",
+    element: (
+      <OTP/>
+    ),
+  },
 
   // {
   //   path: "/PersonalInfo",
