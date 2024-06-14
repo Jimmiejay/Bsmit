@@ -148,7 +148,7 @@
 
 }
 
-.requestform button[type="submit"] {
+.requestform .buttonOTP {
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 600px;
@@ -169,19 +169,19 @@
     margin-left: 45px;
 }
 
-.requestform button[type="submit"]:hover {
+.requestform .buttonOTP:hover {
     background-color: rgb(97, 242, 141);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: black;
 }
 
-.requestform button[type="submit"]:active {
+.requestform .buttonOTP:active {
     background-color: #004085;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: white;
 }
 
-/* .requestform button[type="submit"]:focus {
+/* .requestform .buttonOTP[type="submit"]:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
 }

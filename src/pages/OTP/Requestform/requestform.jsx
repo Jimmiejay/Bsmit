@@ -41,7 +41,7 @@ function ReguestOTPform() {
                 <h5 style={{ display: 'inline-block' }}> 1:00 </h5>
                 <div className="otp-expiry" style={{ display: 'inline-block' }}>นาที</div>
             </div>
-            <button type="submit" onClick={handleSubmit}>ยืนยัน</button>
+            <button className='buttonOTP' type="submit" onClick={handleSubmit}>ยืนยัน</button>
         </div>
     );
 }
