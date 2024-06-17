@@ -1,11 +1,7 @@
 .InfoPage {
-    /* background-color: rgb(184, 230, 173); */
     background-color: white;
-    /* position: static; */
-    /* top: 68px; */
     text-align: left;
-    min-height: 681px;
-    /* max-width: var(--container-content-width); */
+    min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -57,15 +53,21 @@
     border-radius: 6px;
     color: #FFFFFF;
     border: none;
-    
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .InfoPage .B2 {
-    background-color: var( --head-background-color);
+    background-color: var(--head-background-color);
     width: 196px;
     height: 38px;
     border-radius: 6px;
     color: #FFFFFF;
     border: none;
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+    font-weight: 600;
+
 
 }

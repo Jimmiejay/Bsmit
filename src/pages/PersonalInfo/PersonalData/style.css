@@ -1,0 +1,82 @@
+.dataContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dataContainer .dataInput {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    padding: 0 0 20px 0;
+}
+
+.dataContainer input {
+    margin: 0 20px 0 0;
+    width: 289px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    padding: 12px 20px;
+    color: #585958;
+}
+
+.dataContainer input:focus {
+    border: none;
+}
+
+
+.dataContainer label {
+    font-family: Sukhumvit Set;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.4px;
+    text-align: left;
+    color: #959594;
+
+}
+
+.dataContainer .first {
+    /* background-color: yellow; */
+}
+
+.dataContainer .second {
+    /* background-color: blue; */
+}
+
+.dataContainer .third {
+    /* background-color: plum; */
+    grid-column: 1 / span 2;
+    grid-template-columns: 1fr;
+}
+
+.third .inputBox {
+    width: 602px;
+}
+
+.dataContainer .fourth {
+    /* background-color: lightgreen; */
+    grid-template-columns: 200px 200px;
+
+}
+
+.dataContainer .fourth input {
+    /* background-color: lightgreen; */
+    width: 187px;
+
+}
+
+.dataContainer .fifth {
+    /* background-color: lightgreen; */
+}
+
+.dataContainer .titleTxt {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Kittithada Bold 75";
+    padding: 0 0 50px 0;
+    color: #444444;
+    text-align: center;
+}

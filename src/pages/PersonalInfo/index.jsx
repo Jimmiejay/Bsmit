@@ -6,13 +6,12 @@ import Footer from '../../components/Footer'
 import InfoContainer from './InfoContainer'
 
 import './style.css'
-import { ImOffice } from 'react-icons/im'
 
 const PersonalInfo = () => {
     <div>PersonalInfo</div>
     return (
         <>
-            <div className='regDone-container '>
+            <div className='PersonalInfo-container'>
                 <Header />
                 <InfoContainer />
                 <Footer />
