@@ -22,7 +22,7 @@ const Footer = () => {
                             สอบถามโทร
                         </div>
                         <div className='phone'>
-                            <img src={call} />
+                            <img src={call} width={24} height={24} />
                             <div className='phone-number'>
                                 +66 (0) 2022-2222
                             </div>
