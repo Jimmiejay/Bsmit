@@ -27,12 +27,14 @@
     border: none;
 }
 
+.dataContainer input::placeholder {
+    color: #D8D9D9;
+}
 
 .dataContainer label {
     font-family: Sukhumvit Set;
     font-size: 12px;
     font-weight: 400;
-    line-height: 17.4px;
     text-align: left;
     color: #959594;
 
@@ -59,6 +61,7 @@
 .dataContainer .fourth {
     /* background-color: lightgreen; */
     grid-template-columns: 200px 200px;
+    column-gap: 10px;
 
 }
 

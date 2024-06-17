@@ -39,7 +39,7 @@ const PersonalData = () => {
                     <form>
                         <label>บัตรหมดอายุ</label>
                         <div>
-                            <input type='month' placeholder="กรอกวันบัตรหมดอายุ" required></input>
+                            <input type='text' placeholder="กรอกวันบัตรหมดอายุ" required></input>
                         </div>
                     </form>
                 </div>
@@ -69,7 +69,7 @@ const PersonalData = () => {
                     <form>
                         <label>เงินเดือนที่ต้องการ</label>
                         <div>
-                            <input type='select' placeholder="10,000 - 20,000 บาท" required></input>
+                            <input type='' placeholder="10,000 - 20,000 บาท" maxlength="5" required></input>
                         </div>
                     </form>
                 </div>
