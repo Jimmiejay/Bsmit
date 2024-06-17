@@ -87,6 +87,7 @@
     padding: 0.5rem;
     width: 289px;
     height: 38px;
+    border-radius: 6px;
 }
 
 .contactform .emailcontact-text {
@@ -109,8 +110,8 @@
     top: 259px;
     left: 765px;
     gap: 0px;
-    border-radius: 6px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
+    border-radius: 6px;
+    border: 1px;
 }
 
 .contactform .input-group {
@@ -210,6 +211,8 @@
     background-color: #AB957417;
     width: 602px;
     height: 50px;
+    border-radius: 6px;
+
 }
 
 .contactform .address-checkbox-container {
