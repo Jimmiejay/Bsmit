@@ -5,6 +5,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './pages/Home/index.jsx'
 import Register from './pages/Register/index.jsx'
 import RegDonePage from './pages/RegisterDone/index.jsx'
+import PersonalInfo from './pages/PersonalInfo/index.jsx'
 
 import OTP from './pages/OTP/index.jsx'
 import './main.css'
@@ -31,12 +32,12 @@ const router = createBrowserRouter([
     ),
   },
 
-  // {
-  //   path: "/PersonalInfo",
-  //   element: (
-  //     <PersonalInfo/>
-  //   ),
-  // },
+  {
+    path: "/PersonalInfo",
+    element: (
+      <PersonalInfo/>
+    ),
+  },
 
   {
     path: "/RegisterSucceed",
