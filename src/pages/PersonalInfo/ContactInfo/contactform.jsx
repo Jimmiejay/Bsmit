@@ -83,9 +83,8 @@ const contactform = () => {
                         <div className="address-checkbox-container">
                             <input type="checkbox" id="termsAndConditions" name="termsAndConditions" required />
                             <div className='address-terms-text'>
-                                <h3>
-                                    ที่อยู่ตามทะเบียนบ้านตรงกับที่อยู่ปัจจุบัน
-                                </h3>
+                                <h3>ที่อยู่ตามทะเบียนบ้านตรงกับที่อยู่ปัจจุบัน
+</h3>
                             </div>
                         </div>
                     </div>
