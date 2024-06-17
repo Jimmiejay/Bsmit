@@ -38,7 +38,10 @@
 }
 
 .InfoPage .under {
-    background-color: red;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .InfoPage .Info-buttonBox {

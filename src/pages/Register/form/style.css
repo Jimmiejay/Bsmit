@@ -1,14 +1,14 @@
 .registerform {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 300;
     margin: 0 auto;
     z-index: 1;
 }
 
 .registerform h1 {
     font-size: 33px;
-    font-weight: 400px;
+    font-weight: 400;
     font-family: 'Kittithada Bold 75';
     color: #333;
     text-align: center;
@@ -17,24 +17,24 @@
 
 .registerform h2 {
     font-size: 12px;
-    font-weight: 400px;
-    font-family: 'Sukhumvit Set Thin';
+    font-weight: 400;
+    font-family: 'Sukhumvit Set';
     color: #959594;
     ;
 }
 
 .registerform h3 {
     font-size: 9px;
-    font-weight: 400px;
-    font-family: 'Sukhumvit Set Thin';
+    font-weight: 400;
+    font-family: 'Sukhumvit Set';
     color: #959594;
     ;
 }
 
 .registerform h4 {
     font-size: 12px;
-    font-weight: 400px;
-    font-family: 'Sukhumvit Set Thin';
+    font-weight: 400;
+    font-family: 'Sukhumvit Set';
     color: #00605C;
     ;
 }
@@ -161,7 +161,7 @@
 .registerform .buttonReg{
     padding: 10px 20px;
     font-size: 14px;
-    font-weight: 600px;
+    font-weight: 600;
     font-family: 'Sukhumvit Set Medium';
     color: white;
 

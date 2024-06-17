@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Contactform from '../ContactInfo/contactform'
 import './style.css'
 
 const InfoContainer = () => {
@@ -11,7 +11,7 @@ const InfoContainer = () => {
             ssssaaaaa
           </div>
           <div className='under'>
-            fffffff
+            <Contactform/>
           </div>
         </div>
         <div className='Info-buttonBox'>

@@ -8,7 +8,7 @@
 
 .requestform .otp-ref {
     font-size: 12px;
-    font-weight: 400px;
+    font-weight: 400;
     font-family: 'Sukhumvit Set Thin';
     color: #959594;
     text-align: left;
@@ -18,7 +18,7 @@
 
 .requestform h2 {
     font-size: 14px;
-    font-weight: 500px;
+    font-weight: 500;
     font-family: 'Sukhumvit Set Thin';
     color: #585958;
     text-align: center;
@@ -27,21 +27,21 @@
 
 .requestform h3 {
     font-size: 12px;
-    font-weight: 500px;
+    font-weight: 500;
     font-family: 'Sukhumvit Set Thin';
     color: #959594;
 }
 
 .requestform h4 {
     font-size: 12px;
-    font-weight: 500px;
+    font-weight: 500;
     font-family: 'Sukhumvit Set Thin';
     color: #00605C;
 }
 
 .requestform h5 {
     font-size: 10px;
-    font-weight: 500px;
+    font-weight: 500;
     font-family: 'Sukhumvit Set Thin';
     color: #00605C;
     margin-left: 3px;
@@ -133,7 +133,7 @@
 .requestform .otp-input {
     padding: 0.5rem;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #E6E6E6;
     border-radius: 4px;
     width: 314px;
     height: 38px;
@@ -151,7 +151,7 @@
 .requestform .buttonOTP {
     padding: 10px 20px;
     font-size: 14px;
-    font-weight: 600px;
+    font-weight: 600;
     font-family: 'Sukhumvit Set Medium';
     color: white;
 
