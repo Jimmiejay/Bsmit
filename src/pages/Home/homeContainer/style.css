@@ -1,0 +1,34 @@
+.HomePage {
+    background-color: white;
+    text-align: left;
+    min-height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.HomePage .card-group {
+    max-width: var(--form-card-width);
+    margin: 40px 0 0 0;
+}
+
+.HomePage .Home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomePage .top {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomePage .under {
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -3,16 +3,16 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import './style.css'
 
+import HomeContent from './homeContainer/index'
+
 function Home() {
   return (
     <>
       <div className='home-container'>
         <Header />
-        <main>
-          Home Content
-        </main>
+        <HomeContent />
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }

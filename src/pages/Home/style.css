@@ -1,14 +1,7 @@
 .home-container
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     background-color: whitesmoke;
-
-    width: 100vw;
-    min-height: 100vh;
-
     color: var(--text-head-color);
 }
 
