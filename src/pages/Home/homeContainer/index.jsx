@@ -9,20 +9,20 @@ const HomeContent = () => {
         <div className='HomePage'>
             <div className="card-group">
                 <div className='Home-content '>
-                    <div className='top'>
+                    <div className='first'>
                         <SearchJob />
                     </div>
-                    <div className='under'>
-                        สวัสดิการและสิทธิประโยชน์
+                    <div className='second'>
+                        สวัสดิการและสิทธิประโยชน์ (film)
                     </div>
-                    <div className='top'>
-                        โรงพยาบาลที่ท่านสนใจสมัครงาน
+                    <div className='third'>
+                        โรงพยาบาลที่ท่านสนใจสมัครงาน (bambam)
                     </div>
-                    <div className='under'>
-                        เสียงตอบรับจากผู้สมัคร
+                    <div className='fourth'>
+                        เสียงตอบรับจากผู้สมัคร (film)
                     </div>
-                    <div className='top'>
-                        รับคำแนะนำด้านอาชีพสำหรับคุณโดยเฉพาะ
+                    <div className='fifth'>
+                        รับคำแนะนำด้านอาชีพสำหรับคุณโดยเฉพาะ (bambam)
                     </div>
                 </div>
             </div>

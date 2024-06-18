@@ -1,7 +1,6 @@
 .JobContainer {
     position: relative;
     display: flex;
-    top: 25px;
 }
 
 .JobContainer .bg {
