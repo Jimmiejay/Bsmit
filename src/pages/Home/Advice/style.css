@@ -1,0 +1,81 @@
+.advice {
+    display: flex;
+    margin: 50px 0 100px 0;
+}
+
+.advice .adviceContainer {
+    justify-content: center;
+    align-items: center;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advice .boxContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.advice .box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.advice .txtBox {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.advice .img1 {
+    width: 161.12px;
+    height: 167px;
+}
+
+.advice .img2 {
+    width: 139px;
+    height: 165.23px;
+}
+
+.advice h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37.7px;
+    text-align: center;
+    color: #585958;
+    padding: 0 0 30px 0;
+}
+
+.advice h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    color: #585958;
+}
+
+.advice p {
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.3px;
+    text-align: left;
+    color: #959594;
+}
+
+.advice a {
+    font-family: Sukhumvit Set;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.4px;
+    color: #9E7F5D;
+}
+
+.advice .link {
+    padding: 20px 0 0 0;
+}

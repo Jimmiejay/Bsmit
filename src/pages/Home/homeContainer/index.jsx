@@ -5,6 +5,8 @@ import SearchJob from '../SearchJob'
 import Benefits from '../Benefits'
 
 import Feedback from '../Feedback'
+import Hostpital from '../hostpital'
+import Advice from '../Advice'
 
 
 const HomeContent = () => {
@@ -19,13 +21,13 @@ const HomeContent = () => {
                         <Benefits />
                     </div>
                     <div className='third'>
-                        โรงพยาบาลที่ท่านสนใจสมัครงาน (bambam)
+                        <Hostpital />
                     </div>
                     <div className='fourth'>
                         <Feedback />
                     </div>
                     <div className='fifth'>
-                        รับคำแนะนำด้านอาชีพสำหรับคุณโดยเฉพาะ (bambam)
+                       <Advice />
                     </div>
                 </div>
             </div>

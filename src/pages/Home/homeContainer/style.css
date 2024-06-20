@@ -35,7 +35,7 @@
 }
 
 .HomePage .third {
-    background-color: yellow;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,6 @@
 }
 
 .HomePage .fifth {
-    background-color: lightgreen;
     display: flex;
     align-items: center;
     justify-content: center;
