@@ -1,4 +1,8 @@
-.FeedbackContainer {
+.Feedback {
+    display: flex;
+    margin-left: 50px;
+}
+.Feedback .FeedbackContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +12,7 @@
     z-index: 1;
 }
 
-.FeedbackContainer .FBBackground {
+.Feedback  .FBBackground {
     justify-content: center;
     align-items: center;
     background-color: #636463;
@@ -19,7 +23,7 @@
     display: flex;
 }
 
-.FeedbackContainer h1 {
+.Feedback  h1 {
     font-family: 'Sukhumvit Set';
     font-size: 24px;
     font-weight: 700;
@@ -28,7 +32,7 @@
     /* margin-left: 100px; */
 }
 
-.FeedbackContainer h2 {
+.Feedback  h2 {
     font-family: 'Sukhumvit Set';
     font-size: 14px;
     font-weight: 400;
@@ -37,7 +41,7 @@
 
 }
 
-.FeedbackContainer h3 {
+.Feedback  h3 {
     font-family: 'Sukhumvit Set';
     font-size: 14px;
     font-weight: 500;
@@ -46,7 +50,7 @@
 }
 
 
-.FeedbackContainer .Quotationmarks {
+.Feedback  .Quotationmarks {
     font-family: 'Sukhumvit Set';
     font-size: 44px;
     font-weight: 400;
@@ -54,20 +58,20 @@
     text-align: left;
 }
 
-.FeedbackContainer .ReviewCard {
+.Feedback  .ReviewCard {
     position: relative;
     margin-right: -40px;
-    margin-left: 55px;
+    margin-left: -196px;
     margin-top: -90px;
 }
 
-.FeedbackContainer .Reviewterms-text {
+.Feedback  .Reviewterms-text {
     max-width: 70%;
     margin-top: 40px;
     color: #FFFFFF;
 }
 
-.FeedbackContainer .Reviewlayout {
+.Feedback  .Reviewlayout {
     width: 177px;
     height: 20px;
     top: 1661.75px;
@@ -77,7 +81,7 @@
     color: #DCDCDC;
 }
 
-.FeedbackContainer .Nametxt {
+.Feedback  .Nametxt {
     font-family: 'Sukhumvit Set';
     font-size: 22px;
     font-weight: 700;
@@ -86,7 +90,7 @@
     color: #FFFFFF;
 }
 
-.FeedbackContainer .Namelayout {
+.Feedback  .Namelayout {
     width: 174px;
     height: 31px;
     top: 1588px;
@@ -97,7 +101,7 @@
     justify-items: left;
 }
 
-.FeedbackContainer .Namelayout2 {
+.Feedback  .Namelayout2 {
     width: 174px;
     height: 31px;
     top: 1589.58px;
@@ -108,7 +112,7 @@
     justify-items: left;
 }
 
-.FeedbackContainer .Departmenttxt {
+.Feedback  .Departmenttxt {
     font-family: 'Sukhumvit Set';
     font-size: 14px;
     font-weight: 500;
@@ -117,7 +121,7 @@
     color: #96D8D7;
 }
 
-.FeedbackContainer .Departmentspan {
+.Feedback  .Departmentspan {
     font-family: 'Sukhumvit Set';
     font-size: 10px;
     font-weight: 500;
@@ -126,7 +130,7 @@
     color: #FFFFFF;
 }
 
-.FeedbackContainer .Departmentspanlayout {
+.Feedback  .Departmentspanlayout {
     width: 348px;
     height: 235.42px;
     top: 1577.58px;
@@ -135,7 +139,7 @@
     margin-top: -10px;
 }
 
-.FeedbackContainer .Departmentlayout {
+.Feedback  .Departmentlayout {
     width: 348px;
     height: 235.42px;
     top: 1577.58px;
@@ -144,7 +148,7 @@
     margin-top: -5px;
 }
 
-.FeedbackContainer .Departmentspanlayout2 {
+.Feedback  .Departmentspanlayout2 {
     width: 348px;
     height: 236px;
     top: 1577px;
@@ -153,7 +157,7 @@
     margin-top: -10px;
 }
 
-.FeedbackContainer .Departmentlayout2 {
+.Feedback  .Departmentlayout2 {
     width: 348px;
     height: 236px;
     top: 1577px;
@@ -163,7 +167,7 @@
     margin-right: px;
 }
 
-.FeedbackContainer .TextReview {
+.Feedback  .TextReview {
     font-family: 'Sukhumvit Set';
     font-size: 12.5px;
     font-weight: 400;
@@ -173,7 +177,7 @@
     color: #FFFFFF;
 }
 
-.FeedbackContainer .TextReviewLayout {
+.Feedback  .TextReviewLayout {
     width: 287px;
     height: 57px;
     top: 1705.58px;
@@ -181,7 +185,7 @@
     max-width: 65%;
 }
 
-.FeedbackContainer .TextReviewLayout2 {
+.Feedback  .TextReviewLayout2 {
     width: 254px;
     height: 57px;
     top: 1705.58px;
@@ -189,7 +193,7 @@
     max-width: 65%;
 }
 
-.FeedbackContainer .TimeText {
+.Feedback  .TimeText {
     font-family: 'Sukhumvit Set';
     font-size: 12px;
     font-weight: 400;
@@ -198,7 +202,7 @@
     color: #96D8D7;
 }
 
-.FeedbackContainer .TimeLayout {
+.Feedback  .TimeLayout {
     width: 187px;
     height: 21px;
     top: 1780px;
@@ -207,7 +211,7 @@
     margin-left: 40px;
 }
 
-.FeedbackContainer .TimeLayout2 {
+.Feedback  .TimeLayout2 {
     width: 187px;
     height: 21px;
     top: 1780px;
@@ -216,7 +220,7 @@
     margin-left: 40px;
 }
 
-.FeedbackContainer .MorereviewLink {
+.Feedback  .MorereviewLink {
     font-size: 14px;
     font-weight: 500;
     font-family: 'Sukhumvit Set Thin';
@@ -226,7 +230,7 @@
 
 }
 
-.FeedbackContainer .Messageboximg {
+.Feedback  .Messageboximg {
     width: 348px;
     height: 235.42px;
     top: 1577.58px;
@@ -234,11 +238,11 @@
     border-radius: 6px;
 }
 
-.FeedbackContainer .Messageboxlayout {
+.Feedback  .Messageboxlayout {
     margin-top: -20px;
 }
 
-.FeedbackContainer .Messageboximg2 {
+.Feedback  .Messageboximg2 {
     width: 348px;
     height: 236px;
     top: 1577px;
@@ -246,53 +250,53 @@
     border-radius: 6px;
 }
 
-.FeedbackContainer .Messageboxlayout2 {
+.Feedback  .Messageboxlayout2 {
     margin-left: 90px;
     margin-top: -20px;
 }
 
-.FeedbackContainer .lineimg {
+.Feedback  .lineimg {
     width: 290px;
     top: 100px;
     left: 471.72px;
     border: 1px;
 }
 
-.FeedbackContainer .lineimglayout {
+.Feedback  .lineimglayout {
     margin-left: -60px;
     margin-top: -10px;
 }
 
-.FeedbackContainer .Quotationmarksimg {
+.Feedback  .Quotationmarksimg {
     width: 12px;
     height: 12px;
 }
 
-.FeedbackContainer .Quotationmarkslayout {
+.Feedback  .Quotationmarkslayout {
     margin-left: -40px;
 }
 
-.FeedbackContainer .Quotationmarkslayout2 {
+.Feedback  .Quotationmarkslayout2 {
     margin-left: -40px;
 }
 
-.FeedbackContainer a {
+.Feedback  a {
     color: #9E7F5D;
 }
 
-.FeedbackContainer a:hover {
+.Feedback  a:hover {
     color: #322f6b;
     text-decoration-color: #322f6b;
 }
 
-.FeedbackContainer .slider-controls {
+.Feedback  .slider-controls {
     display: flex;
     justify-content: right;
     margin-top: 250px;
     margin-left: 5px;
 }
 
-.FeedbackContainer .prev-btn{
+.Feedback  .prev-btn{
     background-color: #e0e0e000;
     color: #9099A0;
     border-width: 1px 1px 1px 1px;
@@ -308,7 +312,7 @@
     width: 30px;
     height: 30px;
 }
-.FeedbackContainer .next-btn {
+.Feedback  .next-btn {
     background-color: #e0e0e000;
     color: #FFFFFF;
     border-width: 1px 1px 1px 1px;

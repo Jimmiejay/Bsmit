@@ -7,41 +7,53 @@ import article from '../../../assets/home/article.png'
 
 const Benefits = () => {
     return (
-        <div className='BenefitsContainer'>
-            <div className='BenefitCard'>
-                <div className='ImageContainer'>
-                    <img className='benefitspic' src={benefits} alt='Welfare and benefits'></img>
-                    <div className='benefitImageOverlay'>
+        <div className='Benefits'>
+            <div className='BenefitsContainer'>
+                <div className='BenefitCard'>
+                    <div className='ImageContainer'>
                         <a href="/#Welfare-and-Benefits" className="link">
-                            <h3>Welfare and benefits</h3>
+                            <div class="benefitspic-container">
+                                <img className='benefitspic' src={benefits}
+                                    alt='Welfare and benefits'></img>
+                                <div class="benefitspic-overlay"></div>
+                            </div>
+                            <div className='benefitImageOverlay'>
+                                <h3>Welfare and benefits</h3>
+                                <h4>สวัสดิการและสิทธิประโยชน์</h4>
+                            </div>
                         </a>
-                        <h4>สวัสดิการและสิทธิประโยชน์</h4>
                     </div>
                 </div>
-            </div>
-            <div className='BenefitCard'>
-                <div className='ImageContainer'>
-                    <img className='searchHospitalpic' src={searchHospital} alt='Search for Job/Hospital'></img>
-                    <div className='searchHospitalImageOverlay'>
+                <div className='BenefitCard'>
+                    <div className='ImageContainer'>
                         <a href="/#Search-for-Job/Hospital" className="link">
-                            <h3>Search for Job/ Hospital</h3>
+                            <div class="searchHospitalpic-container">
+                                <img className='searchHospitalpic' src={searchHospital} alt='Search for Job/Hospital'></img>
+                                <div class="searchHospitalpic-overlay"></div>
+                            </div>
+                            <div className='searchHospitalImageOverlay'>
+                                <h3>Search for Job/ Hospital</h3>
+                                <h4>ค้นหางานและโรงพยาบาล</h4>
+                            </div>
                         </a>
-                        <h4>ค้นหางานและโรงพยาบาล</h4>
                     </div>
                 </div>
-            </div>
-            <div className='BenefitCard'>
-                <div className='ImageContainer'>
-                    <img className='articlepic' src={article} alt='Interesting article'></img>
-                    <div className='articleImageOverlay'>
+                <div className='BenefitCard'>
+                    <div className='ImageContainer'>
                         <a href="/#Interesting-article" className="link">
-                            <h3>Interesting article</h3>
+                        <div class="articlepic-container">
+                            <img className='articlepic' src={article} alt='Interesting article'></img>
+                            <div class="articlepic-overlay"></div>
+                            </div>
+                            <div className='articleImageOverlay'>
+                                <h3>Interesting article</h3>
+                                <h4>บทความน่าสนใจ</h4>
+                            </div>
                         </a>
-                        <h4>บทความน่าสนใจ</h4>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

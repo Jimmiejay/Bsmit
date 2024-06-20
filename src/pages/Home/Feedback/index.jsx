@@ -9,6 +9,7 @@ import QuotationMarks from '../../../assets/home/quotationmarks.png'
 
 const Feedback = () => {
     return (
+       <div className='Feedback'>
         <div className='FeedbackContainer'>
             <div className='FBBackground'>
                 <div className='ReviewCard'>
@@ -79,6 +80,7 @@ const Feedback = () => {
                 </div>
             </div>
         </div >
+        </div>
     )
 }
 
