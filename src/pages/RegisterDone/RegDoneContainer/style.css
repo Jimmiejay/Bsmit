@@ -1,11 +1,7 @@
 .regDonePage {
-    /* background-color: rgb(184, 230, 173); */
     background-color: white;
-    /* position: static; */
-    /* top: 68px; */
     text-align: left;
-    min-height:681px;
-    /* max-width: var(--container-content-width); */
+    min-height: 681px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -43,7 +39,7 @@
     background-color: #ffffff;
 }
 
-.regDonePage  .Regbutton {
+.regDonePage .Regbutton {
     width: 186px;
     height: 38px;
     font-size: 14px;
@@ -54,12 +50,12 @@
     background-color: #585958;
 }
 
-.regDonePage  .Regbutton:hover{
+.regDonePage .Regbutton:hover {
     background-color: #E6E6E6;
     color: #585958;
     border: 1px solid #E6E6E6;
 }
 
-.regDonePage .buttonBox{
+.regDonePage .buttonBox {
     padding: 50px 0 0 0;
 }
