@@ -2,6 +2,8 @@ import React from 'react'
 import './style.css'
 
 import SearchJob from '../SearchJob'
+import Hostpital from '../hostpital'
+import Advice from '../Advice'
 
 
 const HomeContent = () => {
@@ -16,13 +18,13 @@ const HomeContent = () => {
                         สวัสดิการและสิทธิประโยชน์ (film)
                     </div>
                     <div className='third'>
-                        โรงพยาบาลที่ท่านสนใจสมัครงาน (bambam)
+                        <Hostpital />
                     </div>
                     <div className='fourth'>
                         เสียงตอบรับจากผู้สมัคร (film)
                     </div>
                     <div className='fifth'>
-                        รับคำแนะนำด้านอาชีพสำหรับคุณโดยเฉพาะ (bambam)
+                       <Advice />
                     </div>
                 </div>
             </div>
