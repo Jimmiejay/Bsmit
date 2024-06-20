@@ -1,0 +1,98 @@
+.BenefitsContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 100vh;
+    z-index: 1;
+}
+
+.BenefitsContainer h3 {
+    font-family: 'Sukhumvit Set';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.88px;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.BenefitsContainer h4 {
+    font-family: 'Sukhumvit Set';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.2px;
+    text-align: left;
+}
+
+.BenefitsContainer .BenefitCard {
+    position: relative;
+}
+
+.BenefitsContainer .ImageContainer {
+    position: relative;
+}
+
+.BenefitsContainer .benefitImageOverlay {
+    position: absolute;
+    width: 182px;
+   
+    top: 125px;
+    left: 130px;
+
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.BenefitsContainer .searchHospitalImageOverlay {
+    position: absolute;
+    width: 246px;
+    top: 125px;
+    left: 160px;
+
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.BenefitsContainer .articleImageOverlay {
+    position: absolute;
+    width: 177px;
+    top: 125px;
+    left: 120px;
+
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.BenefitsContainer .link {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Sukhumvit Set Thin';
+    color: white;
+    text-decoration: none;
+}
+
+.BenefitsContainer .benefitspic {
+    width: 294px;
+    height: 202px;
+    top: 664px;
+    left: 262px;
+}
+
+.BenefitsContainer .searchHospitalpic {
+    width: 294px;
+    height: 202px;
+    top: 664px;
+    left: 573px;
+}
+
+.BenefitsContainer .articlepic {
+    width: 294px;
+    height: 202px;
+    top: 664px;
+    left: 884px;
+}

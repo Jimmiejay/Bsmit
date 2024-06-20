@@ -1,0 +1,327 @@
+.FeedbackContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.FeedbackContainer .FBBackground {
+    justify-content: center;
+    align-items: center;
+    background-color: #636463;
+    width: 100vw;
+    height: 350px;
+    /* top: 1511px;
+    left: -0.28px; */
+    display: flex;
+}
+
+.FeedbackContainer h1 {
+    font-family: 'Sukhumvit Set';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.8px;
+    text-align: left;
+    /* margin-left: 100px; */
+}
+
+.FeedbackContainer h2 {
+    font-family: 'Sukhumvit Set';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.3px;
+    text-align: left;
+
+}
+
+.FeedbackContainer h3 {
+    font-family: 'Sukhumvit Set';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.3px;
+    text-align: left;
+}
+
+
+.FeedbackContainer .Quotationmarks {
+    font-family: 'Sukhumvit Set';
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 63.8px;
+    text-align: left;
+}
+
+.FeedbackContainer .ReviewCard {
+    position: relative;
+    margin-right: -40px;
+    margin-left: 55px;
+    margin-top: -90px;
+}
+
+.FeedbackContainer .Reviewterms-text {
+    max-width: 70%;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.FeedbackContainer .Reviewlayout {
+    width: 177px;
+    height: 20px;
+    top: 1661.75px;
+    left: 257.72px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #DCDCDC;
+}
+
+.FeedbackContainer .Nametxt {
+    font-family: 'Sukhumvit Set';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31.9px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.FeedbackContainer .Namelayout {
+    width: 174px;
+    height: 31px;
+    top: 1588px;
+    left: 535.72px;
+    margin-left: -260px;
+    margin-top: -200px;
+    text-align: left;
+    justify-items: left;
+}
+
+.FeedbackContainer .Namelayout2 {
+    width: 174px;
+    height: 31px;
+    top: 1589.58px;
+    left: 913.72px;
+    margin-left: -260px;
+    margin-top: -200px;
+    text-align: left;
+    justify-items: left;
+}
+
+.FeedbackContainer .Departmenttxt {
+    font-family: 'Sukhumvit Set';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.3px;
+    text-align: left;
+    color: #96D8D7;
+}
+
+.FeedbackContainer .Departmentspan {
+    font-family: 'Sukhumvit Set';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.FeedbackContainer .Departmentspanlayout {
+    width: 348px;
+    height: 235.42px;
+    top: 1577.58px;
+    left: 454.72px;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+
+.FeedbackContainer .Departmentlayout {
+    width: 348px;
+    height: 235.42px;
+    top: 1577.58px;
+    left: 454.72px;
+    border-radius: 6px;
+    margin-top: -5px;
+}
+
+.FeedbackContainer .Departmentspanlayout2 {
+    width: 348px;
+    height: 236px;
+    top: 1577px;
+    left: 832.72px;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+
+.FeedbackContainer .Departmentlayout2 {
+    width: 348px;
+    height: 236px;
+    top: 1577px;
+    left: 832.72px;
+    border-radius: 6px;
+    margin-top: -5px;
+    margin-right: px;
+}
+
+.FeedbackContainer .TextReview {
+    font-family: 'Sukhumvit Set';
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 20.3px;
+    text-align: left;
+    margin-left: -40px;
+    color: #FFFFFF;
+}
+
+.FeedbackContainer .TextReviewLayout {
+    width: 287px;
+    height: 57px;
+    top: 1705.58px;
+    left: 481.72px;
+    max-width: 65%;
+}
+
+.FeedbackContainer .TextReviewLayout2 {
+    width: 254px;
+    height: 57px;
+    top: 1705.58px;
+    left: 860.72px;
+    max-width: 65%;
+}
+
+.FeedbackContainer .TimeText {
+    font-family: 'Sukhumvit Set';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.4px;
+    text-align: right;
+    color: #96D8D7;
+}
+
+.FeedbackContainer .TimeLayout {
+    width: 187px;
+    height: 21px;
+    top: 1780px;
+    left: 598.72px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.FeedbackContainer .TimeLayout2 {
+    width: 187px;
+    height: 21px;
+    top: 1780px;
+    left: 976.72px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.FeedbackContainer .MorereviewLink {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Sukhumvit Set Thin';
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+
+}
+
+.FeedbackContainer .Messageboximg {
+    width: 348px;
+    height: 235.42px;
+    top: 1577.58px;
+    left: 454.72px;
+    border-radius: 6px;
+}
+
+.FeedbackContainer .Messageboxlayout {
+    margin-top: -20px;
+}
+
+.FeedbackContainer .Messageboximg2 {
+    width: 348px;
+    height: 236px;
+    top: 1577px;
+    left: 832.72px;
+    border-radius: 6px;
+}
+
+.FeedbackContainer .Messageboxlayout2 {
+    margin-left: 90px;
+    margin-top: -20px;
+}
+
+.FeedbackContainer .lineimg {
+    width: 290px;
+    top: 100px;
+    left: 471.72px;
+    border: 1px;
+}
+
+.FeedbackContainer .lineimglayout {
+    margin-left: -60px;
+    margin-top: -10px;
+}
+
+.FeedbackContainer .Quotationmarksimg {
+    width: 12px;
+    height: 12px;
+}
+
+.FeedbackContainer .Quotationmarkslayout {
+    margin-left: -40px;
+}
+
+.FeedbackContainer .Quotationmarkslayout2 {
+    margin-left: -40px;
+}
+
+.FeedbackContainer a {
+    color: #9E7F5D;
+}
+
+.FeedbackContainer a:hover {
+    color: #322f6b;
+    text-decoration-color: #322f6b;
+}
+
+.FeedbackContainer .slider-controls {
+    display: flex;
+    justify-content: right;
+    margin-top: 250px;
+    margin-left: 5px;
+}
+
+.FeedbackContainer .prev-btn{
+    background-color: #e0e0e000;
+    color: #9099A0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #9099A0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+.FeedbackContainer .next-btn {
+    background-color: #e0e0e000;
+    color: #FFFFFF;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
