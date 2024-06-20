@@ -107,7 +107,7 @@
 }
 
 .footer a:hover{
-    text-decoration: 1.5px underline var(--gold-bg-color);
+    text-decoration: 1.6px underline var(--gold-bg-color);
     color: #fff; 
 }
 

@@ -74,6 +74,11 @@
     font-weight: 400;
     line-height: 17.4px;
     color: #9E7F5D;
+    transition: 0.3s;
+}
+
+.advice a:hover{
+    color: #585958;
 }
 
 .advice .link {
