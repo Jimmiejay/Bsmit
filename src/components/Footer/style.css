@@ -101,8 +101,14 @@
 }
 
 .footer a{
-    text-decoration: none;
+    text-decoration: underline var(--head-background-color);
     color: #fff;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    text-decoration: 1.5px underline var(--gold-bg-color);
+    color: #fff; 
 }
 
 

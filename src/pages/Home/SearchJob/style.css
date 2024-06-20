@@ -95,22 +95,11 @@
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-
+    transition: 0.3s;
 }
 
 .JobContainer .searchButton:hover {
-    width: 103px;
-    height: 38px;
-    border-radius: 6px;
-    border: solid #00605C;
-    font-family: Sukhumvit Set;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #00605C;
+    opacity: 0.9;
 }
 
 .JobContainer .txtButton {
