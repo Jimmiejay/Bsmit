@@ -227,7 +227,7 @@
     }
 }
 
-@media only screen and (max-width:745px) {
+@media only screen and (max-width:760px) {
     .JobContainer {
         display: flex;
         margin: 68px 0 0 0;
