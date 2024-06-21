@@ -4,10 +4,9 @@
     min-height: 76px;
     justify-content: center;
     align-items: center;
-
-
 }
-.Banner .Banner-Container{
+
+.Banner .Banner-Container {
     flex: 100%;
     background-color: #F8F8F8;
     display: flex;
@@ -18,22 +17,161 @@
     justify-content: center;
     align-items: center;
 }
-.Banner .L{
+
+.Banner .L {
     flex: 100%;
     padding: 0 0 0 40px;
 }
-.Banner .R{
+
+.Banner .R {
     flex: 10%;
     display: flex;
     justify-content: center;
 }
-.Banner h1{
+
+.Banner h1 {
     font-size: 20px;
     font-weight: 700;
     color: #585958;
 }
-.Banner p{
+
+.Banner p {
     font-size: 12px;
     font-weight: 400;
     color: #959594;
+}
+
+@media only screen and (max-width:655px) {
+    .Banner {
+        display: flex;
+        width: 80%;
+        min-height: 76px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Banner .Banner-Container {
+        flex: 100%;
+        background-color: #F8F8F8;
+        display: flex;
+        width: 100%;
+        min-height: 76px;
+        border-radius: 6px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Banner .L {
+        flex: 100%;
+        padding: 0 0 0 20px;
+    }
+
+    .Banner .R {
+        flex: 10%;
+        justify-content: center;
+        padding: 0 20px 0 10px;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #585958;
+    }
+
+    .Banner p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #959594;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .Banner {
+        display: flex;
+        width: 80%;
+        min-height: 76px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Banner .Banner-Container {
+        flex: 100%;
+        background-color: #F8F8F8;
+        display: flex;
+        width: 100%;
+        min-height: 100px;
+        border-radius: 6px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Banner .L {
+        flex: 100%;
+        padding: 0 0 0 20px;
+    }
+
+    .Banner .R {
+        flex: 10%;
+        justify-content: center;
+        padding: 0 20px 0 10px;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #585958;
+    }
+
+    .Banner p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #959594;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .Banner {
+        display: flex;
+        width: 80%;
+        min-height: 76px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Banner .Banner-Container {
+        flex: 100%;
+        background-color: #F8F8F8;
+        display: flex;
+        width: 100%;
+        min-height: 120px;
+        border-radius: 6px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Banner .L {
+        flex: 100%;
+        padding: 0 0 0 20px;
+    }
+
+    .Banner .R {
+        flex: 10%;
+        justify-content: center;
+        padding: 0 20px 0 10px;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #585958;
+    }
+
+    .Banner p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #959594;
+    }
 }

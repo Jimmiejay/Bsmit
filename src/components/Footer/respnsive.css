@@ -252,7 +252,6 @@
         width: 100%;
         min-height: 203px;
         text-align: left;
-        background-color: rgb(30, 0, 255);
     }
 
     .footer .footer-container {
@@ -322,7 +321,6 @@
     }
 
     .footer .data-side {
-        /* background-color: darkorange; */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px 0px;
@@ -378,7 +376,6 @@
         width: 100%;
         min-height: 203px;
         text-align: left;
-        background-color: rgb(255, 136, 0);
     }
 
     .footer .footer-container {
@@ -502,7 +499,6 @@
         width: 100%;
         min-height: 203px;
         text-align: left;
-        background-color: rgb(255, 0, 102);
     }
 
     .footer .footer-container {

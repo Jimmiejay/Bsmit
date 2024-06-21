@@ -1,6 +1,5 @@
 .Feedback {
     display: flex;
-    margin-left: 50px;
 }
 .Feedback .FeedbackContainer {
     display: flex;

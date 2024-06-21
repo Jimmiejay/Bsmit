@@ -1,7 +1,8 @@
 .regDonePage {
     background-color: white;
     text-align: left;
-    min-height: 681px;
+    /* min-height: 681px; */
+    min-height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -19,7 +20,6 @@
 }
 
 .regDonePage .regDone-content {
-    /* max-width: var(--container-content-width);  */
     width: 634px;
     padding: 30px 0 0 0;
     display: grid;
@@ -29,7 +29,6 @@
 }
 
 .regDonePage .left-column {
-    /* background-color: #f4c8c8; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,4 +57,67 @@
 
 .regDonePage .buttonBox {
     padding: 50px 0 0 0;
+}
+
+@media only screen and (max-width:630px) {
+    .regDonePage {
+        background-color: white;
+        text-align: left;
+        min-height: 681px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .regDonePage .card-group {
+        width: 100%;
+        max-width: var(--form-card-width);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0 0 0;
+    }
+
+    .regDonePage .regDone-content {
+        width: 100%;
+        padding: 30px 0 0 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+
+    .regDonePage .left-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .regDonePage .right-column {
+        background-color: #ffffff;
+    }
+
+    .regDonePage .Regbutton {
+        width: 186px;
+        height: 38px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 6px;
+        color: #FFFFFF;
+        border: 1px solid #585958;
+        background-color: #585958;
+    }
+
+    .regDonePage .Regbutton:hover {
+        background-color: #E6E6E6;
+        color: #585958;
+        border: 1px solid #E6E6E6;
+    }
+
+    .regDonePage .buttonBox {
+        padding: 50px 0 50px 0;
+    }
+
 }

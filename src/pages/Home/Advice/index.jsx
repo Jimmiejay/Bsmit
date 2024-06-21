@@ -9,7 +9,7 @@ const Advice = () => {
         <>
             <div className='advice'>
                 <div className='adviceContainer'>
-                    <div>
+                    <div className='titleBox'>
                         <h1>รับคำแนะนำด้านอาชีพสำหรับคุณโดยเฉพาะ</h1>
                     </div>
                     <div className='boxContainer'>

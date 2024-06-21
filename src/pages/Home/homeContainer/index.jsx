@@ -11,27 +11,29 @@ import Advice from '../Advice'
 
 const HomeContent = () => {
     return (
-        <div className='HomePage'>
-            <div className="card-group">
-                <div className='Home-content '>
-                    <div className='first'>
-                        <SearchJob />
-                    </div>
-                    <div className='second'>
-                        <Benefits />
-                    </div>
-                    <div className='third'>
-                        <Hostpital />
-                    </div>
-                    <div className='fourth'>
-                        <Feedback />
-                    </div>
-                    <div className='fifth'>
-                       <Advice />
+        <>
+            <div className='first'>
+                <SearchJob />
+            </div>
+            <div className='HomePage'>
+                <div className="card-group">
+                    <div className='Home-content '>
+                        <div className='second'>
+                            <Benefits />
+                        </div>
+                        <div className='third'>
+                            <Hostpital />
+                        </div>
+                        <div className='fourth'>
+                            {/* <Feedback /> */}
+                        </div>
+                        <div className='fifth'>
+                            <Advice />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

@@ -252,3 +252,269 @@
     justify-content: center;
     height: 100%;
 }
+
+@media only screen and (max-width:640px) {
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 300px; */
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .contactform .phoneform {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        margin: 0 auto;
+        z-index: 1;
+        background-color: white;
+        justify-items: center;
+        gap: 10px 0;
+    }
+
+    .contactform .emergencyphoneform {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        margin: 0 auto;
+        z-index: 1;
+        background-color: white;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .contactform .mailform {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        margin: 0 auto;
+        z-index: 1;
+        background-color: white;
+        padding: 0 0 20px 0;
+    }
+
+    .contactform .addressform {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        z-index: 1;
+        background-color: white;
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+
+    .contactform .addressform2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        z-index: 1;
+        background-color: white;
+        justify-items: center;
+        gap: 10px 0;
+    }
+
+    .contactform h1 {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Sukhumvit Set';
+        color: #585958;
+        text-align: left;
+        justify-items: left;
+        margin-bottom: 5px;
+    }
+
+    .contactform h2 {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Sukhumvit Set';
+        color: #959594;
+        text-align: left
+    }
+
+    .contactform h3 {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set';
+        color: #959594;
+        text-align: center;
+    }
+
+
+    .contactform .email-contact-container {
+        justify-content: left;
+        align-items: left;
+        background-color: #EFEFEF;
+        padding: 0.5rem;
+        width: 289px;
+        height: 38px;
+        border-radius: 6px;
+        margin: 0px;
+    }
+
+    .contactform .emailcontact-text {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Sukhumvit Set Thin';
+        color: #585958;
+        margin-left: 10px;
+    }
+
+    .contactform div {
+        margin-bottom: 10px;
+    }
+
+    .contactform .label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #959594;
+        top: 259px;
+        left: 765px;
+        gap: 0px;
+        border-radius: 6px;
+        border: 1px;
+    }
+
+    .contactform .input-group {
+        position: relative;
+    }
+
+    .contactform .input {
+        padding-left: 10px;
+        margin: 0px;
+        font-size: 1rem;
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        width: 289px;
+        height: 38px;
+    }
+
+    .contactform .input::placeholder {
+        color: #D8D9D9;
+        font-family: 'Sukhumvit Set Light';
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .contactform .addressinput {
+        padding: 0.5rem;
+        margin: 0px;
+        font-size: 1rem;
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        width: 289px;
+        height: 38px;
+    }
+
+    .contactform .addressinput::placeholder {
+        color: #D8D9D9;
+        font-family: 'Sukhumvit Set Light';
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .contactform .zipinput {
+        padding: 0.5rem;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        width: 289px;
+        height: 38px;
+    }
+
+    .contactform .zipinput::placeholder {
+        color: #D8D9D9;
+        font-family: 'Sukhumvit Set Light';
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    .contactform .phone-text {
+        max-width: 100%;
+    }
+
+    .contactform .address-fields {
+        display: flex;
+        gap: 50px;
+    }
+
+
+    .contactform .address-text {
+        max-width: 100%;
+    }
+
+    .contactform .address-terms-text {
+        max-width: 70%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .contactform .address-terms-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contactform .terms-contact-container {
+        background-color: #AB957417;
+        width: 100%;
+        height: 50px;
+        border-radius: 6px;
+
+    }
+
+    .contactform .address-checkbox-container {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .contactform .address-checkbox-container label {
+        margin-left: 0.5rem;
+    }
+
+    .contactform .address-checkbox-container input[type="checkbox"] {
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactform .address-checkbox-container input[type="checkbox"]:checked {
+        background-color: #9E7F5D;
+        border-color: #9E7F5D;
+    }
+
+    .contactform .address-checkbox-container input[type="checkbox"]:checked::before {
+        content: "\2713";
+        color: white;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}

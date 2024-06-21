@@ -9,7 +9,7 @@ const SearchJob = () => {
     return (
         <>
             <div className='JobContainer'>
-                <img src={BG} width={1440} height={496} className='bg' />
+                
                 <div className='searchContainner'>
                     <div className='searchBox'>
                         <div className='txt'>ค้นหางาน</div>
@@ -24,6 +24,7 @@ const SearchJob = () => {
                         </div>
                     </div>
                 </div>
+                <img src={BG} className='bg' />
             </div>
         </>
     )

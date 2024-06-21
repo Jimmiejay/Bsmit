@@ -83,3 +83,178 @@
     color: #444444;
     text-align: center;
 }
+
+@media only screen and (max-width:640px) {
+    .dataContainer {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .dataContainer .dataInput {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+        padding: 0 0 20px 0;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .dataContainer input {
+        margin: 0px;
+        width: 289px;
+        height: 38px;
+        border-radius: 6px;
+        border: 1px solid #E6E6E6;
+        padding: 12px 20px;
+        color: #585958;
+    }
+
+    .dataContainer input:focus {
+        border: none;
+    }
+
+    .dataContainer input::placeholder {
+        color: #D8D9D9;
+    }
+
+    .dataContainer label {
+        font-family: Sukhumvit Set;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+        color: #959594;
+
+    }
+
+    .dataContainer .first {
+        /* background-color: yellow; */
+    }
+
+    .dataContainer .second {
+        /* background-color: blue; */
+    }
+
+    .dataContainer .third {
+        /* background-color: plum; */
+    }
+
+    .third .inputBox {
+        width: 289px;
+    }
+
+    .dataContainer .fourth {
+        /* background-color: lightgreen; */
+        grid-template-columns: 200px 200px;
+        column-gap: 10px;
+
+    }
+
+    .dataContainer .fourth input {
+        /* background-color: lightgreen; */
+        width: 187px;
+
+    }
+
+    .dataContainer .fifth {
+        /* background-color: lightgreen; */
+    }
+
+    .dataContainer .titleTxt {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Kittithada Bold 75";
+        padding: 0 0 50px 0;
+        color: #444444;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:420px) {
+    .dataContainer {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .dataContainer .dataInput {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+        padding: 0 0 20px 0;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .dataContainer input {
+        margin: 0px;
+        width: 289px;
+        height: 38px;
+        border-radius: 6px;
+        border: 1px solid #E6E6E6;
+        padding: 12px 20px;
+        color: #585958;
+    }
+
+    .dataContainer input:focus {
+        border: none;
+    }
+
+    .dataContainer input::placeholder {
+        color: #D8D9D9;
+    }
+
+    .dataContainer label {
+        font-family: Sukhumvit Set;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+        color: #959594;
+
+    }
+
+    .dataContainer .first {
+        /* background-color: yellow; */
+    }
+
+    .dataContainer .second {
+        /* background-color: blue; */
+    }
+
+    .dataContainer .third {
+        /* background-color: plum; */
+    }
+
+    .third .inputBox {
+        width: 289px;
+    }
+
+    .dataContainer .fourth {
+        /* background-color: lightgreen; */
+    }
+
+    .dataContainer .fourth input {
+        /* background-color: lightgreen; */
+        width: 289px;
+
+    }
+
+    .dataContainer .fifth {
+        /* background-color: lightgreen; */
+    }
+
+    .dataContainer .titleTxt {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Kittithada Bold 75";
+        padding: 0 0 50px 0;
+        color: #444444;
+        text-align: center;
+    }
+
+}
