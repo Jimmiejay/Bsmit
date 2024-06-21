@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import './respnsive.css'
 import LanguageSelector from '../LanguageSelector/index.jsx'
 
 import BNH from '../../assets/BNH.png'
@@ -15,9 +16,12 @@ const Footer = () => {
             <div className='footer'>
                 <div className='footer-container '>
                     <div className='contact-side'>
-                        <img className='logo' src={Samitivevej} />
-                        <img className='logo' src={BNH} />
-                        <img className='logo' src={FHF} />
+                        <div>
+                            <img className='logo' src={Samitivevej} />
+                            <img className='logo' src={BNH} />
+                            <img className='logo' src={FHF} />
+                        </div>
+
                         <div className='contact-txt'>
                             สอบถามโทร
                         </div>
@@ -67,8 +71,6 @@ const Footer = () => {
                             <a href='#'>งานที่บันทึก</a>
                         </div>
                     </div>
-
-
                 </div>
             </div>
             <div className='last'>

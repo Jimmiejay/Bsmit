@@ -1,0 +1,617 @@
+/* Landscape */
+@media only screen and (max-width:1280px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-background-color);
+        width: 100%;
+        min-height: 203px;
+        text-align: left;
+    }
+
+    .footer .footer-container {
+        min-height: 203px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gold-bg-color);
+        width: 100%;
+        min-height: 47px;
+        text-align: left;
+
+        font-weight: 500;
+        font-size: 13px;
+        font-family: 'Sukhumvit Set text';
+        padding: 0 0 0 50px;
+    }
+
+    .last .last-container {
+        max-width: var(--container-content-width);
+        width: var(--container-content-width);
+        min-height: 47px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+    }
+
+    .last .last-txt {
+        flex: 100%;
+    }
+
+    .last .last-language {
+        flex: 10%;
+    }
+
+    .footer .contact-side {
+        /* background-color: crimson; */
+        padding: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .contact-txt {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0 50px 0 50px;
+    }
+
+
+    .footer .phone-number {
+        font-weight: 700;
+        font-size: 24px;
+        padding: 0 50px 0 0;
+    }
+
+    .footer .data-side {
+        /* background-color: darkorange; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 0px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .footer .logo {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .footer .phone {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer .contact-icon {
+        display: flex;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .footer .icon {
+        padding: 0px 0px 0px 15px;
+        width: 120px;
+        height: 24.69px;
+    }
+
+    .footer a {
+        text-decoration: underline var(--head-background-color);
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        text-decoration: 1.6px underline var(--gold-bg-color);
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width:1280px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-background-color);
+        width: 100%;
+        min-height: 203px;
+        text-align: left;
+    }
+
+    .footer .footer-container {
+        min-height: 203px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gold-bg-color);
+        width: 100%;
+        min-height: 47px;
+        text-align: left;
+
+        font-weight: 500;
+        font-size: 13px;
+        font-family: 'Sukhumvit Set text';
+        padding: 0 0 0 50px;
+    }
+
+    .last .last-container {
+        max-width: var(--container-content-width);
+        width: var(--container-content-width);
+        min-height: 47px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+    }
+
+    .last .last-txt {
+        flex: 100%;
+    }
+
+    .last .last-language {
+        flex: 10%;
+    }
+
+    .footer .contact-side {
+        /* background-color: crimson; */
+        padding: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .contact-txt {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0 50px 0 50px;
+    }
+
+
+    .footer .phone-number {
+        font-weight: 700;
+        font-size: 24px;
+        padding: 0 50px 0 0;
+    }
+
+    .footer .data-side {
+        /* background-color: darkorange; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 0px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .footer .logo {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .footer .phone {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer .contact-icon {
+        display: flex;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .footer .icon {
+        padding: 0px 0px 0px 15px;
+        width: 120px;
+        height: 24.69px;
+    }
+
+    .footer a {
+        text-decoration: underline var(--head-background-color);
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        text-decoration: 1.6px underline var(--gold-bg-color);
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width:946px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-background-color);
+        width: 100%;
+        min-height: 203px;
+        text-align: left;
+        background-color: rgb(30, 0, 255);
+    }
+
+    .footer .footer-container {
+        min-height: 203px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gold-bg-color);
+        width: 100%;
+        min-height: 47px;
+        text-align: left;
+
+        font-weight: 500;
+        font-size: 13px;
+        font-family: 'Sukhumvit Set text';
+        padding: 0 0 0 20px;
+    }
+
+    .last .last-container {
+        max-width: var(--container-content-width);
+        width: var(--container-content-width);
+        min-height: 47px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+    }
+
+    .last .last-txt {
+        flex: 100%;
+    }
+
+    .last .last-language {
+        flex: 10%;
+    }
+
+    .footer .contact-side {
+        /* background-color: crimson; */
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .contact-txt {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0 50px 0 50px;
+    }
+
+
+    .footer .phone-number {
+        font-weight: 700;
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .footer .data-side {
+        /* background-color: darkorange; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 0px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .footer .logo {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .footer .phone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer .contact-icon {
+        display: flex;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .footer .icon {
+        padding: 0px 0px 0px 15px;
+        width: 120px;
+        height: 24.69px;
+    }
+
+    .footer a {
+        text-decoration: underline var(--head-background-color);
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        text-decoration: 1.6px underline var(--gold-bg-color);
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width:582px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-background-color);
+        width: 100%;
+        min-height: 203px;
+        text-align: left;
+        background-color: rgb(255, 136, 0);
+    }
+
+    .footer .footer-container {
+        min-height: 203px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gold-bg-color);
+        width: 100%;
+        min-height: 47px;
+        text-align: left;
+
+        font-weight: 500;
+        font-size: 13px;
+        font-family: 'Sukhumvit Set text';
+        padding: 0 0 0 20px;
+    }
+
+    .last .last-container {
+        max-width: var(--container-content-width);
+        width: var(--container-content-width);
+        min-height: 47px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+    }
+
+    .last .last-txt {
+        flex: 100%;
+    }
+
+    .last .last-language {
+        flex: 10%;
+    }
+
+    .footer .contact-side {
+        /* background-color: crimson; */
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .contact-txt {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0 50px 0 50px;
+    }
+
+
+    .footer .phone-number {
+        font-weight: 700;
+        font-size: 24px;
+        padding: 0px;
+    }
+
+    .footer .data-side {
+        /* background-color: darkorange; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 0px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .footer .logo {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .footer .phone {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer .contact-icon {
+        display: flex;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .footer .icon {
+        padding: 0px 0px 0px 15px;
+        width: 120px;
+        height: 24.69px;
+    }
+
+    .footer a {
+        text-decoration: underline var(--head-background-color);
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        text-decoration: 1.6px underline var(--gold-bg-color);
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width:414px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--head-background-color);
+        width: 100%;
+        min-height: 203px;
+        text-align: left;
+        background-color: rgb(255, 0, 102);
+    }
+
+    .footer .footer-container {
+        min-height: 203px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gold-bg-color);
+        width: 100%;
+        min-height: 47px;
+        text-align: left;
+
+        font-weight: 500;
+        font-size: 13px;
+        font-family: 'Sukhumvit Set text';
+        padding: 0 0 0 20px;
+    }
+
+    .last .last-container {
+        max-width: var(--container-content-width);
+        width: var(--container-content-width);
+        min-height: 47px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        display: flex;
+    }
+
+    .last .last-txt {
+        flex: 100%;
+    }
+
+    .last .last-language {
+        flex: 10%;
+    }
+
+    .footer .contact-side {
+        /* background-color: crimson; */
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .contact-txt {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0 50px 0 50px;
+    }
+
+
+    .footer .phone-number {
+        font-weight: 700;
+        font-size: 24px;
+        padding: 0px;
+    }
+
+    .footer .data-side {
+        /* background-color: darkorange; */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 0px;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .footer .logo {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .footer .phone {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer .contact-icon {
+        display: flex;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .footer .icon {
+        padding: 0px 0px 0px 15px;
+        width: 120px;
+        height: 24.69px;
+    }
+
+    .footer a {
+        text-decoration: underline var(--head-background-color);
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        text-decoration: 1.6px underline var(--gold-bg-color);
+        color: #fff;
+    }
+}
