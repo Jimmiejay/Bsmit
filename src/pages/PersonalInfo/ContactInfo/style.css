@@ -15,6 +15,7 @@
     margin: 0 auto;
     z-index: 1;
     background-color: white;
+    gap: 10px 0;
 }
 
 .contactform .emergencyphoneform {
@@ -33,6 +34,7 @@
     margin: 0 auto;
     z-index: 1;
     background-color: white;
+    padding: 0 0 20px 0;
 }
 
 .contactform .addressform {
@@ -42,6 +44,7 @@
     margin: 0 auto;
     z-index: 1;
     background-color: white;
+    padding: 0 0 20px 0;
 }
 
 .contactform .addressform2 {
@@ -51,6 +54,7 @@
     margin: 0 auto;
     z-index: 1;
     background-color: white;
+    gap: 10px 0;
 }
 
 .contactform h1 {
@@ -140,7 +144,6 @@
 .contactform .addressinput {
     padding: 0.5rem;
     margin-right: 20px;
-    margin-bottom: 20px;
     font-size: 1rem;
     border: 1px solid #E6E6E6;
     border-radius: 4px;
