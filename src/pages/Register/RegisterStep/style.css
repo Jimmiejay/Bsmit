@@ -27,7 +27,6 @@
 }
 
 .step .box {
-
     border-radius: 6px;
     background-color: #F8F8F8;
     min-height: 80px;
@@ -49,4 +48,223 @@
 .step .boxR {
     min-height: 80px;
     padding: 20px 30px 0 0;
+}
+
+@media only screen and (max-width:1280px){
+    .step {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        font-size: 13px;
+    }
+    
+    .step .title {
+        margin: 50px 0 40px 0;
+    }
+    
+    .step .stepContain {
+        display: grid;
+        grid-template-rows: 100px 1fr;
+    }
+    
+    .step p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .step .box-side {
+        flex-direction: column;
+        width: 318px;
+    }
+    
+    .step .box {
+        border-radius: 6px;
+        background-color: #F8F8F8;
+        min-height: 80px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin: 20px 0 0 0;
+    
+        font-size: 12px;
+        font-weight: 400;
+      
+    }
+    
+    .step .boxL {
+        min-height: 80px;
+        padding: 15px 0 0 15px;
+    
+    }
+    
+    .step .boxR {
+        min-height: 80px;
+        padding: 20px 30px 0 0;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .step {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        font-size: 13px;
+    }
+    
+    .step .title {
+        margin: 20px 0 40px 0;
+    }
+    
+    .step .stepContain {
+        display: grid;
+        grid-template-rows: 100px 1fr;
+    }
+    
+    .step p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .step .box-side {
+        flex-direction: column;
+        width: 318px;
+        margin-top: -30px;
+    }
+    
+    .step .box {
+        border-radius: 6px;
+        background-color: #F8F8F8;
+        min-height: 80px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin: 20px 0 0 0;
+    
+        font-size: 12px;
+        font-weight: 400;
+      
+    }
+    
+    .step .boxL {
+        min-height: 80px;
+        padding: 15px 0 0 15px;
+    
+    }
+    
+    .step .boxR {
+        min-height: 80px;
+        padding: 20px 30px 0 0;
+    }
+}
+
+@media only screen and (max-width:414px){
+    .step {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        font-size: 13px;
+    }
+    
+    .step .title {
+        margin: 20px 0 40px 0;
+    }
+    
+    .step .stepContain {
+        display: grid;
+        grid-template-rows: 100px 1fr;
+    }
+    
+    .step p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .step .box-side {
+        flex-direction: column;
+        width: 318px;
+        margin-top: -30px;
+    }
+    
+    .step .box {
+        border-radius: 6px;
+        background-color: #F8F8F8;
+        min-height: 80px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin: 20px 0 0 0;
+    
+        font-size: 12px;
+        font-weight: 400;
+      
+    }
+    
+    .step .boxL {
+        min-height: 80px;
+        padding: 15px 0 0 15px;
+    
+    }
+    
+    .step .boxR {
+        min-height: 80px;
+        padding: 20px 30px 0 0;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .step {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        font-size: 13px;
+    }
+    
+    .step .title {
+        margin: 20px 0 20px 0;
+    }
+    
+    .step .stepContain {
+        display: grid;
+        grid-template-rows: 100px 1fr;
+    }
+    
+    .step p {
+        font-size: 13px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .step .box-side {
+        flex-direction: column;
+        width: 318px;
+        margin-top: -30px;
+    }
+    
+    .step .box {
+        border-radius: 6px;
+        background-color: #F8F8F8;
+        min-height: 80px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin: 20px 0 0 0;
+    
+        font-size: 12px;
+        font-weight: 400;
+      
+    }
+    
+    .step .boxL {
+        min-height: 80px;
+        padding: 15px 0 0 15px;
+    
+    }
+    
+    .step .boxR {
+        min-height: 80px;
+        padding: 20px 30px 0 0;
+    }
 }
