@@ -1300,7 +1300,7 @@
     }
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:415px) {
     .Benefits {
         display: flex;
         justify-content: center;
@@ -1443,7 +1443,7 @@
 
     .Benefits .searchHospitalpic-overlay {
         position: absolute;
-        top: 22px;
+        top: 20px;
         left: 23px;
         width:97%;
         height: 81%;
