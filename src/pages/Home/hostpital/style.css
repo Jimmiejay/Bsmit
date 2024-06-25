@@ -57,6 +57,7 @@
     border: solid #FFFFFF;
     color: #585958;
     transition: 0.3s;
+    cursor: pointer;
 
 }
 
@@ -159,6 +160,7 @@
         border: solid #FFFFFF;
         color: #585958;
         transition: 0.3s;
+        cursor: pointer;
 
     }
 
@@ -262,6 +264,7 @@
         border: solid #FFFFFF;
         color: #585958;
         transition: 0.3s;
+        cursor: pointer;
 
     }
 
@@ -365,6 +368,7 @@
         border: solid #FFFFFF;
         color: #585958;
         transition: 0.3s;
+        cursor: pointer;
 
     }
 
