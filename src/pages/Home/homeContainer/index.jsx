@@ -24,17 +24,29 @@ const HomeContent = () => {
                         <div className='third'>
                             <Hostpital />
                         </div>
-                        <div className='fourth'>
-                            <Feedback />
-                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className='fourth'>
+                    <Feedback />
+                </div>
+            </div>
+            <div className='HomePage'>
+                <div className="card-group">
+                    <div className='Home-content '>
                         <div className='fifth'>
                             <Advice />
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
         </>
     )
 }
 
 export default HomeContent
+
