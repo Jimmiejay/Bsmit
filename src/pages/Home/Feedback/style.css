@@ -1,26 +1,37 @@
 .Feedback {
     display: flex;
 }
+
 .Feedback .FeedbackContainer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 1150px;
+    height: 300px;
     z-index: 1;
+}
+
+.Feedback .FeedbackGrid {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    margin-top: -50px;
 }
 
 .Feedback  .FBBackground {
     justify-content: center;
     align-items: center;
     background-color: #636463;
-    width: 100vw;
-    height: 350px;
-    /* top: 1511px;
-    left: -0.28px; */
+    width: 1473px;
+    height: 370px;
     display: flex;
 }
+
+.Feedback .sidebar {
+    color: white;
+    padding: 0px;
+    margin-top: 20px;
+  }
 
 .Feedback  h1 {
     font-family: 'Sukhumvit Set';
@@ -48,36 +59,14 @@
     text-align: left;
 }
 
-
-.Feedback  .Quotationmarks {
-    font-family: 'Sukhumvit Set';
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 63.8px;
-    text-align: left;
-}
-
-.Feedback  .ReviewCard {
-    position: relative;
-    margin-right: -40px;
-    margin-left: -196px;
-    margin-top: -90px;
-}
-
-.Feedback  .Reviewterms-text {
-    max-width: 70%;
-    margin-top: 40px;
+.Feedback  .MorereviewLink {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Sukhumvit Set Thin';
     color: #FFFFFF;
-}
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
 
-.Feedback  .Reviewlayout {
-    width: 177px;
-    height: 20px;
-    top: 1661.75px;
-    left: 257.72px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    color: #DCDCDC;
 }
 
 .Feedback  .Nametxt {
@@ -89,28 +78,6 @@
     color: #FFFFFF;
 }
 
-.Feedback  .Namelayout {
-    width: 174px;
-    height: 31px;
-    top: 1588px;
-    left: 535.72px;
-    margin-left: -260px;
-    margin-top: -200px;
-    text-align: left;
-    justify-items: left;
-}
-
-.Feedback  .Namelayout2 {
-    width: 174px;
-    height: 31px;
-    top: 1589.58px;
-    left: 913.72px;
-    margin-left: -260px;
-    margin-top: -200px;
-    text-align: left;
-    justify-items: left;
-}
-
 .Feedback  .Departmenttxt {
     font-family: 'Sukhumvit Set';
     font-size: 14px;
@@ -120,50 +87,13 @@
     color: #96D8D7;
 }
 
-.Feedback  .Departmentspan {
+.Feedback  .Departmentspantxt {
     font-family: 'Sukhumvit Set';
     font-size: 10px;
     font-weight: 500;
     line-height: 14.5px;
     text-align: left;
     color: #FFFFFF;
-}
-
-.Feedback  .Departmentspanlayout {
-    width: 348px;
-    height: 235.42px;
-    top: 1577.58px;
-    left: 454.72px;
-    border-radius: 6px;
-    margin-top: -10px;
-}
-
-.Feedback  .Departmentlayout {
-    width: 348px;
-    height: 235.42px;
-    top: 1577.58px;
-    left: 454.72px;
-    border-radius: 6px;
-    margin-top: -5px;
-}
-
-.Feedback  .Departmentspanlayout2 {
-    width: 348px;
-    height: 236px;
-    top: 1577px;
-    left: 832.72px;
-    border-radius: 6px;
-    margin-top: -10px;
-}
-
-.Feedback  .Departmentlayout2 {
-    width: 348px;
-    height: 236px;
-    top: 1577px;
-    left: 832.72px;
-    border-radius: 6px;
-    margin-top: -5px;
-    margin-right: px;
 }
 
 .Feedback  .TextReview {
@@ -176,23 +106,7 @@
     color: #FFFFFF;
 }
 
-.Feedback  .TextReviewLayout {
-    width: 287px;
-    height: 57px;
-    top: 1705.58px;
-    left: 481.72px;
-    max-width: 65%;
-}
-
-.Feedback  .TextReviewLayout2 {
-    width: 254px;
-    height: 57px;
-    top: 1705.58px;
-    left: 860.72px;
-    max-width: 65%;
-}
-
-.Feedback  .TimeText {
+.Feedback  .Date {
     font-family: 'Sukhumvit Set';
     font-size: 12px;
     font-weight: 400;
@@ -201,57 +115,68 @@
     color: #96D8D7;
 }
 
-.Feedback  .TimeLayout {
-    width: 187px;
-    height: 21px;
-    top: 1780px;
-    left: 598.72px;
-    margin-top: 40px;
-    margin-left: 40px;
+.Feedback  .ReviewCard {
+    position: relative;
+    padding: 0px;
 }
 
-.Feedback  .TimeLayout2 {
-    width: 187px;
-    height: 21px;
-    top: 1780px;
-    left: 976.72px;
-    margin-top: 40px;
-    margin-left: 40px;
-}
-
-.Feedback  .MorereviewLink {
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Sukhumvit Set Thin';
+.Feedback .Reviewterms-text{
+    max-width: 55%;
     color: #FFFFFF;
-    text-decoration: underline;
-    text-decoration-color: #FFFFFF;
+}
 
+.Feedback  .Reviewlayout {
+    width: 177px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #DCDCDC;
+}
+
+.Feedback .card {
+    /* background-color: #008080; */
+    color: white;
+    padding: 0;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+  }
+
+/* กล่องทางซ้าย */
+.Feedback  .Messageboxlayout {
+    align-items: center;
+    text-align: left;
 }
 
 .Feedback  .Messageboximg {
     width: 348px;
     height: 235.42px;
-    top: 1577.58px;
-    left: 454.72px;
     border-radius: 6px;
 }
 
-.Feedback  .Messageboxlayout {
-    margin-top: -20px;
+.Feedback  .Namelayout {
+    width: 174px;
+    height: 31px;
+    margin-left: 85px;
+    margin-top: -225px;
+    text-align: left;
+    justify-items: left;
 }
 
-.Feedback  .Messageboximg2 {
+.Feedback  .Departmentlayout {
     width: 348px;
-    height: 236px;
-    top: 1577px;
-    left: 832.72px;
     border-radius: 6px;
+    margin-top: -5px;
 }
 
-.Feedback  .Messageboxlayout2 {
-    margin-left: 90px;
-    margin-top: -20px;
+.Feedback  .Departmentspanlayout {
+    border-radius: 6px;
+    margin-top: -10px;
+}
+
+.Feedback  .lineimglayout {
+    margin-left: -60px;
+    margin-top: -5px;
 }
 
 .Feedback  .lineimg {
@@ -261,9 +186,8 @@
     border: 1px;
 }
 
-.Feedback  .lineimglayout {
-    margin-left: -60px;
-    margin-top: -10px;
+.Feedback  .Quotationmarkslayout {
+    margin-left: -40px;
 }
 
 .Feedback  .Quotationmarksimg {
@@ -271,12 +195,33 @@
     height: 12px;
 }
 
-.Feedback  .Quotationmarkslayout {
-    margin-left: -40px;
+.Feedback  .TextReviewLayout {
+    width: 287px;
+    height: 57px;
+    top: 1705.58px;
+    left: 481.72px;
+    max-width: 65%;
 }
 
-.Feedback  .Quotationmarkslayout2 {
-    margin-left: -40px;
+.Feedback  .TimeLayout {
+    width: 187px;
+    height: 21px;
+    top: 1780px;
+    left: 598.72px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* กล่องทางขวา */
+.Feedback  .Messageboximg2 {
+    width: 348px;
+    height: 236px;
+    border-radius: 6px;
+}
+
+.Feedback  .Messageboxlayout2 {
+    align-items: center;
+    text-align: left;
 }
 
 .Feedback  a {
@@ -287,12 +232,12 @@
     color: #322f6b;
     text-decoration-color: #322f6b;
 }
-
 .Feedback  .slider-controls {
     display: flex;
     justify-content: right;
-    margin-top: 250px;
-    margin-left: 5px;
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-bottom: -30px;
 }
 
 .Feedback  .prev-btn{
@@ -327,4 +272,5295 @@
     border-radius: 4px;
     width: 30px;
     height: 30px;
+}
+
+@media only screen and (max-width:1280px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1280px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1240px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1222px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1236px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1221px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1230px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1212px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1225px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1208px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1220px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1205px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1216px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1200px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1211px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1194px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1205px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1189px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1183px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1190px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1170px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1185px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1150px;
+        height: 300px;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1169px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 348px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1030px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+        margin-top: -50px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 1000px;
+        height: 370px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 300px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: 20px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        margin-top: -40px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 985px;
+        height: 550px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 300px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+        margin-left: 300px;
+        margin-top: 50PX;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: -340px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        margin-top: -40px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 883px;
+        height: 550px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 300px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+        margin-left: 300px;
+        margin-top: 50PX;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: -340px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        margin-top: -40px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 800px;
+        height: 550px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 300px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+        margin-left: 300px;
+        margin-top: 50PX;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: -340px;
+        margin-bottom: -30px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:591px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px;
+        margin-top: -90px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 575px;
+        height: 800px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+        margin-left: -20px;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 300px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+        margin-left: -20px;
+        margin-top: 60%;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px;
+        margin-top: -90px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 428px;
+        height: 780px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+        margin-left: -20px;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 250px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+        margin-left: -20px;
+        margin-top: 60%;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .Feedback {
+        display: flex;
+    }
+    
+    .Feedback .FeedbackContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        z-index: 1;
+    }
+    
+    .Feedback .FeedbackGrid {
+        display: grid;
+        grid-template-columns: 300px;
+        margin-top: -60px;
+        margin-right: 20px;
+    }
+    
+    .Feedback  .FBBackground {
+        justify-content: center;
+        align-items: center;
+        background-color: #636463;
+        width: 415px;
+        height: 780px;
+        display: flex;
+    }
+    
+    .Feedback .sidebar {
+        color: white;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+    .Feedback  h1 {
+        font-family: 'Sukhumvit Set';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.8px;
+        text-align: left;
+        /* margin-left: 100px; */
+    }
+    
+    .Feedback  h2 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+    
+    }
+    
+    .Feedback  h3 {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+    }
+    
+    .Feedback  .MorereviewLink {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Sukhumvit Set Thin';
+        color: #FFFFFF;
+        text-decoration: underline;
+        text-decoration-color: #FFFFFF;
+    
+    }
+    
+    .Feedback  .Nametxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Departmenttxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20.3px;
+        text-align: left;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .Departmentspantxt {
+        font-family: 'Sukhumvit Set';
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14.5px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .TextReview {
+        font-family: 'Sukhumvit Set';
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: 20.3px;
+        text-align: left;
+        margin-left: -40px;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Date {
+        font-family: 'Sukhumvit Set';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17.4px;
+        text-align: right;
+        color: #96D8D7;
+    }
+    
+    .Feedback  .ReviewCard {
+        position: relative;
+        padding: 0px;
+    }
+    
+    .Feedback .Reviewterms-text{
+        max-width: 55%;
+        color: #FFFFFF;
+    }
+    
+    .Feedback  .Reviewlayout {
+        width: 177px;
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #DCDCDC;
+    }
+    
+    .Feedback .card {
+        /* background-color: #008080; */
+        color: white;
+        padding: 0;
+        border-radius: 10px;
+        position: relative;
+        text-align: left;
+      }
+    
+    /* กล่องทางซ้าย */
+    .Feedback  .Messageboxlayout {
+        align-items: center;
+        text-align: left;
+        margin-left: -20px;
+    }
+    
+    .Feedback  .Messageboximg {
+        width: 348px;
+        height: 235.42px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Namelayout {
+        width: 174px;
+        height: 31px;
+        margin-left: 85px;
+        margin-top: -225px;
+        text-align: left;
+        justify-items: left;
+    }
+    
+    .Feedback  .Departmentlayout {
+        width: 250px;
+        border-radius: 6px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .Departmentspanlayout {
+        border-radius: 6px;
+        margin-top: -10px;
+    }
+    
+    .Feedback  .lineimglayout {
+        margin-left: -60px;
+        margin-top: -5px;
+    }
+    
+    .Feedback  .lineimg {
+        width: 290px;
+        top: 100px;
+        left: 471.72px;
+        border: 1px;
+    }
+    
+    .Feedback  .Quotationmarkslayout {
+        margin-left: -40px;
+    }
+    
+    .Feedback  .Quotationmarksimg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Feedback  .TextReviewLayout {
+        width: 287px;
+        height: 57px;
+        top: 1705.58px;
+        left: 481.72px;
+        max-width: 65%;
+    }
+    
+    .Feedback  .TimeLayout {
+        width: 187px;
+        height: 21px;
+        top: 1780px;
+        left: 598.72px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    /* กล่องทางขวา */
+    .Feedback  .Messageboximg2 {
+        width: 348px;
+        height: 236px;
+        border-radius: 6px;
+    }
+    
+    .Feedback  .Messageboxlayout2 {
+        align-items: center;
+        text-align: left;
+        margin-left: -20px;
+        margin-top: 60%;
+    }
+    
+    .Feedback  a {
+        color: #9E7F5D;
+    }
+    
+    .Feedback  a:hover {
+        color: #322f6b;
+        text-decoration-color: #322f6b;
+    }
+    .Feedback  .slider-controls {
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+    }
+    
+    .Feedback  .prev-btn{
+        background-color: #e0e0e000;
+        color: #9099A0;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #9099A0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .Feedback  .next-btn {
+        background-color: #e0e0e000;
+        color: #FFFFFF;
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+    }
 }

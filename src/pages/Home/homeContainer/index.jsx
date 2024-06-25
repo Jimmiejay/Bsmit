@@ -25,7 +25,7 @@ const HomeContent = () => {
                             <Hostpital />
                         </div>
                         <div className='fourth'>
-                            {/* <Feedback /> */}
+                            <Feedback />
                         </div>
                         <div className='fifth'>
                             <Advice />
